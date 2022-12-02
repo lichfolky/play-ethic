@@ -1,85 +1,88 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink, RouterView } from 'vue-router';
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+    <nav>
+      <RouterLink class="title" to="/">PLAY ETHIC!</RouterLink>
+      <RouterLink to="/call">Call for adventures!</RouterLink>
+      <RouterLink to="/avventure">Le avventure</RouterLink>
+      <RouterLink to="/giuria">La giuria</RouterLink>
+      <RouterLink to="/eventi">Gli eventi</RouterLink>
+    </nav>
   </header>
-
   <RouterView />
+  <footer>
+    <div class="wrap">
+      <a href="/">Altera</a>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
 header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+  background-color: var(--color-nav-background);
+  color: var(--color-text-nav);
+  position: sticky;
+  top: 0;
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  max-width: var(--page-width);
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  height: var(--nav-height);
+  padding: var(--page-padding);
+  margin: var(--page-margin);
 }
 
 nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
-nav a:first-of-type {
-  border: 0;
+nav a:hover {
+  color: var(--color-link--hover);
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+nav .title {
+  flex: 1;
+  color: var(--color-text-nav-title);
+  font-weight: 900;
+  font-size: 2rem;
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+  letter-spacing: 0.1rem;
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+footer {
+  background-color: var(--color-nav-background);
+  color: var(--color-text-nav);
+  height: 3rem;
+  padding: var(--page-padding);
+  display: flex;
+  align-items: center;
+}
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
+footer .wrap {
+  max-width: var(--page-width);
+  padding: var(--page-padding);
+  gap: 1.5rem;
+  height: var(--nav-height)
+}
 
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+footer a {
+  color: var(--color-link--hover);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--color-link);
 }
 </style>
