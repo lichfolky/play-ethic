@@ -6,7 +6,7 @@
                 Altera c/o CasArcobaleno - Via Bernardino Lanino 3/A, 10152 Torino</a>
             <div class="copy">
                 <small>
-                    ©2022 Play Ethics
+                    Play Ethic - 2022
                 </small>
                 <div>
                     <small>

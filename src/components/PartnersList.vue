@@ -3,16 +3,33 @@
         <ul>
             <li>
                 <a href="altera.http://www.alteracultura.org/">
-                    <img class="altera logo" alt="book" src="@/assets/img/altera-logo.svg" /></a>
+
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="@/assets/img/altera-logo.svg" width="75" />
+                        <source media="(max-width: 1270px)" srcset="@/assets/img/altera-logo.svg" width="100" />
+                        <img alt="altera logo" src="@/assets/img/altera-logo.svg" width="125" />
+                    </picture>
+                </a>
+
             </li>
             <li>
                 <a href="https://www.facebook.com/IlFortunaDado/">
-                    <img class="fortuna dado" alt="book" src="@/assets/img/fortunadado-logo.png" />
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="@/assets/img/fortunadado-logo.png" width="75" />
+                        <source media="(max-width: 1270px)" srcset="@/assets/img/fortunadado-logo.png" width="100" />
+                        <img alt="fortuna dado logo" src="@/assets/img/fortunadado-logo.png" width="125" />
+                    </picture>
+
                 </a>
             </li>
             <li>
                 <a href="https://www.fondazionecrt.it/">
-                    <img class="fondazion ctr" alt="book" src="@/assets/img/fondazionecrt-logo.png" />
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="@/assets/img/fondazionecrt-logo.png" height="75" />
+                        <source media="(max-width: 1270px)" srcset="@/assets/img/fondazionecrt-logo.png" height="100" />
+                        <img alt="fondazione crt logo" src="@/assets/img/fondazionecrt-logo.png" height="125" />
+                    </picture>
+
                 </a>
             </li>
         </ul>
@@ -31,7 +48,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 150px;
     padding: 0;
 }
 
@@ -41,10 +58,5 @@ li::marker {
 
 li {
     padding: 0;
-}
-
-li img {
-    height: 75px;
-
 }
 </style>

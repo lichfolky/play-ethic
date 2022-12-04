@@ -1,10 +1,14 @@
 <script setup>
+import { ref, onMounted } from 'vue';
+
 import { RouterLink } from 'vue-router';
+import DiceHamburger from './icons/DiceHamburger.vue';
+let showMenu = ref(false);
 </script>
 
 <template>
     <header>
-        <nav>
+        <nav class="desktop">
             <ul>
                 <li class="title">
                     <RouterLink to="/">PLAY ETHIC!</RouterLink>
@@ -15,15 +19,39 @@ import { RouterLink } from 'vue-router';
                 <li>
                     <RouterLink to="/avventure">Le avventure passate</RouterLink>
                 </li>
-                <li>
+                <!-- <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/eventi">Gli eventi</RouterLink>
-                </li>
+                </li> -->
             </ul>
 
         </nav>
+        <nav class="mobile">
+            <div class="nav-bar">
+                <span class="title">
+                    <RouterLink to="/">PLAY ETHIC!</RouterLink>
+                </span>
+                <DiceHamburger class="menu-dice" @click="(showMenu = !showMenu)" />
+            </div>
+            <ul v-if="showMenu">
+                <li>
+                    <RouterLink to="/call">Call for adventures!</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/avventure">Le avventure passate</RouterLink>
+                </li>
+                <!-- <li>
+                    <RouterLink to="/giuria">La giuria</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/eventi">Gli eventi</RouterLink>
+                </li> -->
+            </ul>
+
+        </nav>
+
     </header>
 </template>
 
@@ -35,34 +63,32 @@ header {
     top: 0;
 }
 
-nav {
+header nav {
     max-width: var(--page-width);
     padding-left: var(--page-padding-inline);
     padding-right: var(--page-padding-inline);
     margin: 0 auto;
 }
 
-ul {
+header ul {
     display: flex;
     gap: 1.5rem;
     align-items: center;
     padding: 0;
     list-style: none;
-    height: var(--nav-height);
-
     max-width: var(--page-width);
 }
 
-nav li {
+header li {
     list-style: none;
     padding: 0;
 }
 
-nav li::marker {
+header li::marker {
     content: "";
 }
 
-nav a {
+header a {
     color: inherit;
     text-decoration: none;
     font-size: 1rem;
@@ -70,19 +96,39 @@ nav a {
     line-height: 1.5;
 }
 
-nav a:hover {
+header a:hover {
     color: var(--color-link--hover);
 }
 
-ul .title {
+header .title {
     flex: 1;
-
 }
 
-ul .title a {
+header .title a {
     color: var(--color-text-nav-title);
     font-weight: 900;
     font-size: 2rem;
     letter-spacing: 0.1rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.mobile ul {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+}
+
+.menu-dice {
+    height: 75px;
+    width: 75px;
+    padding: 0.5rem;
+    fill: var(--color-white);
+    transform: rotate(-180deg);
 }
 </style>

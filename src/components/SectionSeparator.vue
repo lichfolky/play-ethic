@@ -14,7 +14,9 @@ const imgUrl = computed(() => {
 <template>
     <div class="separator" v-if="imgUrl">
         <span class="line"></span>
-        <img :src="imgUrl" alt="">
+
+        <img :src="imgUrl" alt="separator icon" width="100px">
+
         <span class="line"></span>
     </div>
     <div class="separator" v-else>
@@ -25,22 +27,25 @@ const imgUrl = computed(() => {
 <style scoped>
 .line {
     border-bottom: 3px solid var(--color-orange-dark);
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
 }
 
 .line.long {
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
 }
 
 
 img {
     padding: 0 1.5rem;
+    width: 100px;
 }
 
 .separator {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0 3rem 0;
+    padding: 0;
 }
 </style>

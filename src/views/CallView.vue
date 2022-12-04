@@ -1,5 +1,5 @@
 <template>
-  <h2>La call!</h2>
+  <h2>La nuova call for adventures!</h2>
   <p>
     Adesso è il momento del contest “Play Ethic”, dedicato ad avventure di gioco di ruolo scritte per promuovere, nei
     giocatori, attitudini cooperative e solidali, portandoli contemporaneamente a sperimentare situazioni e identità

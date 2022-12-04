@@ -1,14 +1,15 @@
 <script setup>
-import { RouterView } from 'vue-router';
+import SkipLink from './components/SkipLink.vue';
 import FooterSection from './components/FooterSection.vue';
 import HeaderSection from './components/HeaderSection.vue';
 import PartnersList from './components/PartnersList.vue';
 </script>
 
 <template>
+  <!-- <SkipLink /> -->
   <HeaderSection></HeaderSection>
   <div class="main-wrapper">
-    <main>
+    <main id="main">
       <RouterView />
     </main>
   </div>
@@ -23,7 +24,7 @@ import PartnersList from './components/PartnersList.vue';
 
 main {
   width: var(--page-width);
-  padding: var(--page-padding-top) var(--page-padding-inline) var(--page-padding-top) var(--page-padding-inline);
+  padding: var(--page-padding-top) var(--page-padding-inline) 0 var(--page-padding-inline);
   margin: 0 auto;
 }
 </style>

@@ -14,8 +14,10 @@
 :root {
   /* Palette */
   --color-black: hsl(0, 0%, 5%);
-  --color-white: hsl(9, 64%, 98%);
+  --color-white: hsl(10, 60%, 98%);
+  /* #fdf8f7 */
   --color-orange-darker: hsl(8, 67%, 7%);
+  /* #1e0906 */
   --color-orange-dark: hsl(9, 69%, 19%);
   --color-orange-light: hsl(9, 69%, 45%);
   --color-text: hsl(11, 68%, 5%);
@@ -46,7 +48,7 @@
       --page-width: 1200px;
   */
   --page-width: 1280px;
-  --text-width: 35rem;
+  --text-width: 44rem;
 
   /* Typography */
   /* Base font size become 18px */
@@ -80,6 +82,7 @@ picture,
 video,
 canvas,
 svg {
+  /* width: 100%; */
   display: block;
 }
 
@@ -156,7 +159,6 @@ ul {
   max-width: var(--text-width);
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-
 }
 
 li {
@@ -178,8 +180,6 @@ li::marker {
   color: var(--color-orange-dark);
 }
 
-
-/* 
-em {}
-strong {} 
-*/
+strong {
+  color: var(--color-orange-dark);
+}
