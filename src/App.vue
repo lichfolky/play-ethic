@@ -10,9 +10,9 @@ import PartnersList from './components/PartnersList.vue';
   <div class="main-wrapper">
     <main>
       <RouterView />
-      <PartnersList />
     </main>
   </div>
+  <PartnersList />
   <FooterSection />
 </template>
 
@@ -22,8 +22,8 @@ import PartnersList from './components/PartnersList.vue';
 }
 
 main {
-  max-width: var(--page-width);
-  padding: var(--page-padding-top) var(--page-padding-inline) 0 var(--page-padding-inline);
+  width: var(--page-width);
+  padding: var(--page-padding-top) var(--page-padding-inline) var(--page-padding-top) var(--page-padding-inline);
   margin: 0 auto;
 }
 </style>

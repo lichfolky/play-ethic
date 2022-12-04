@@ -1,3 +1,8 @@
+<script setup>
+import { myTest } from "../assets/scripts/script";
+myTest();
+</script>
+
 <template>
 
   <h2>avventure</h2>

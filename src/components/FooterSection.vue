@@ -2,26 +2,37 @@
 <template>
     <footer>
         <div class="wrap">
-            <a href="http://www.alteracultura.org/">Altera c/o CasArcobaleno - Via Bernardino Lanino 3/A, 10152
-                Torino</a>
+            <a href="http://www.alteracultura.org/">
+                Altera c/o CasArcobaleno - Via Bernardino Lanino 3/A, 10152 Torino</a>
+            <div class="copy">
+                <small>
+                    ©2022 Play Ethics
+                </small>
+                <div>
+                    <small>
+                        Created by
+                    </small>
+                    <a href="">
+                        Artax
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
+
 </template>
 
 <style>
 footer {
     background-color: var(--color-nav-background);
     color: var(--color-text-nav);
-    height: 3rem;
-
+    height: var(--footer-height);
+    max-width: var(--page-width);
     padding-left: var(--page-padding-inline);
     padding-right: var(--page-padding-inline);
-    margin: 0 auto;
+    padding-top: 1rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: var(--nav-height)
+    margin: 0 auto;
 }
 
 footer .wrap {
@@ -31,11 +42,18 @@ footer .wrap {
 }
 
 footer a {
-    color: var(--color-link--hover);
+    color: var(--color-white);
     text-decoration: none;
+    font-weight: 700;
 }
 
-footer a:hover {
-    color: var(--color-link);
+.copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+}
+
+small {
+    font-size: 0.8rem;
 }
 </style>

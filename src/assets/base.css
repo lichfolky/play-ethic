@@ -32,7 +32,7 @@
   --color-nav-background: var(--color-orange-darker);
   --color-main-background: var(--color-white);
   /* Layout */
-  --page-padding-inline: 1rem;
+  --page-padding-inline: 2rem;
   --page-padding-top: 4rem;
 
   --footer-height: 3rem;
@@ -45,7 +45,7 @@
       1040px * huawei Matebook
       --page-width: 1200px;
   */
-  --page-width: 1200px;
+  --page-width: 1280px;
   --text-width: 35rem;
 
   /* Typography */
@@ -66,7 +66,6 @@
 
 * {
   margin: 0;
-  padding: 0;
   overflow-wrap: break-word;
   /* hyphens: auto; */
 }
@@ -153,11 +152,31 @@ p {
   padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
-p.short {
+ul {
+  max-width: var(--text-width);
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+
+}
+
+li {
+  padding: 0.5rem;
+}
+
+li p {
+  padding: 1rem 0 1rem 0;
+}
+
+p.short,
+ul.short {
   max-width: 600px;
 }
 
-
+li::marker {
+  content: '# ';
+  font-weight: 700;
+  color: var(--color-orange-dark);
+}
 
 
 /* 

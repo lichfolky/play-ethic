@@ -1,4 +1,5 @@
 <script setup>
+import SectionSeparator from '@/components/SectionSeparator.vue';
 </script>
 
 <template>
@@ -15,56 +16,54 @@
         collettiva,
         stimolando relazioni, empatia e curiosità.
       </p>
-      <img class="interc" alt="book" src="@/assets/img/book.png" width="700" />
+      <img class="interc" alt="book" src="@/assets/img/book.png" width="650" />
       <h2>
         La call for adventures
       </h2>
-      <p class="short">
+      <p class=" ">
         E' partita la seconda edizione della Call for adventures del progetto Play Ethic, per avventure di gioco di
         ruolo che sappiano stimolare giocatori e giocatrici a interrogarsi su dilemmi etici non banali, mettersi in
         discussione e sperimentare nuove possibilità.
       </p>
-      <p class="short">
-        Le avventure partecipanti devono perseguire uno o più dei seguenti scopi:
-      </p>
 
-      <ul>
-        <li> delineare mondi possibili alternativi, ad esempio in termini di rapporti socio-economici, culturali,
-          ambientali
-        </li>
-        <li> mettere i personaggi (e dunque i giocatori e le giocatrici) di fronte a dilemmi etici non banali
-        </li>
-        <li>
-          farci accorgere dei nostri pregiudizi, delle abitudini che diamo per scontate
-        </li>
-        <li>
-          farci capire (e decostruire) i ‘pregiudizi’ altrui, così da favorire la comprensione e dunque il dialogo con
-          chi
-          è diverso da noi.
-        </li>
-      </ul>
-      <p class="short">
+      <p class=" ">
         La call prevederà una rosa di linee tematiche e le avventure proposte dovranno enfatizzare almeno una tra
         queste. Le avventure dovranno utilizzare sistemi di gioco con licenze open ed essere rilasciate con licenza
         creative commons.
       </p>
     </div>
-    <aside>
-      <img alt="players" src="@/assets/img/players.png" width="500" />
-      <img alt="conference" src="@/assets/img/conference.png" width="500" />
+    <aside><img alt="players" src="@/assets/img/players.png" width="500" />
+      <img id="bellaciao" alt="conference" src="@/assets/img/conference.png" width="500" />
     </aside>
   </div>
+  <SectionSeparator imgName="awesome" />
+  <p class="">
+    Le avventure partecipanti devono perseguire uno o più dei seguenti scopi:
+  </p>
+  <ul class="">
+    <li> delineare mondi possibili alternativi, ad esempio in termini di rapporti socio-economici, culturali,
+      ambientali
+    </li>
+    <li> mettere i personaggi (e dunque i giocatori e le giocatrici) di fronte a dilemmi etici non banali
+    </li>
+    <li>
+      farci accorgere dei nostri pregiudizi, delle abitudini che diamo per scontate
+    </li>
+    <li>
+      farci capire (e decostruire) i ‘pregiudizi’ altrui, così da favorire la comprensione e dunque il dialogo con
+      chi
+      è diverso da noi.
+    </li>
+  </ul>
+  <SectionSeparator img="awesome" />
 </template>
 
 <style scoped>
 .grid {
   display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-}
-
-li::marker {
-  content: '+ ';
+  grid-template-columns: min-content min-content;
+  gap: 1rem;
+  justify-content: space-between;
 }
 
 .subtitle {
@@ -72,7 +71,6 @@ li::marker {
 }
 
 aside {
-  padding: 0 1rem;
   padding-top: 0.5rem;
 }
 
@@ -85,7 +83,11 @@ aside>img {
   margin-bottom: 2rem;
 }
 
-img {
+.img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.col {
+  width: fit-content;
 }
 </style>

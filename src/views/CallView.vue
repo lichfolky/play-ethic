@@ -1,25 +1,38 @@
 <template>
   <h2>La call!</h2>
-  Adesso è il momento del contest “Play Ethic”, dedicato ad avventure di gioco di ruolo scritte per promuovere, nei
-  giocatori, attitudini cooperative e solidali, portandoli contemporaneamente a sperimentare situazioni e identità
-  diverse da loro.
+  <p>
+    Adesso è il momento del contest “Play Ethic”, dedicato ad avventure di gioco di ruolo scritte per promuovere, nei
+    giocatori, attitudini cooperative e solidali, portandoli contemporaneamente a sperimentare situazioni e identità
+    diverse da loro.
+  </p>
+  <p>
 
-  PLAYin(g) Piemonte è un progetto di Associazione Àltera APS in collaborazione con Il FortunaDado, realizzato con
-  il contributo di Fondazione CRT. Il suo scopo è sprigionare, a partire dal suo potenziale ludico, il potenziale
-  del gioco di ruolo come pratica culturale di riflessione sociale immersiva e collettiva, stimolando immaginazione,
-  empatia, e curiosità. La Call for Adventures è realizzata con il patrocinio di Lucca Comics&Games, Play – Festival
-  del Gioco e Game Science Research Center.
+    PLAYin(g) Piemonte è un progetto di Associazione Àltera APS in collaborazione con Il FortunaDado, realizzato con
+    il contributo di Fondazione CRT. Il suo scopo è sprigionare, a partire dal suo potenziale ludico, il potenziale
+    del gioco di ruolo come pratica culturale di riflessione sociale immersiva e collettiva, stimolando immaginazione,
+    empatia, e curiosità. La Call for Adventures è realizzata con il patrocinio di Lucca Comics&Games, Play – Festival
+    del Gioco e Game Science Research Center.
+  </p>
+
   <h2>Premi</h2>
-  Gli/le autori/autrici delle tre avventure ritenute meritevoli riceveranno:
+  <p>
 
-  un ingresso omaggio per Lucca Comics & Games 2021;
-  un ingresso omaggio per Play – Il Festival del Gioco prossima edizione;
-  la possibilità di far giocare la propria avventura all’interno di ToPlay 2021, con la copertura delle spese di
-  viaggio e ospitalità sino a un massimo di € 70,00.
-  In occasione della premiazione si inviteranno i/le tre master vincitori/vincitrici a far giocare la loro avventura
-  ai partecipanti di ToPlay.
+    Gli/le autori/autrici delle tre avventure ritenute meritevoli riceveranno:
+  </p>
+  <p>
 
-  La partecipazione è gratuita e ogni partecipante può concorrere con più avventure fino a un massimo di tre.
+    un ingresso omaggio per Lucca Comics & Games 2021;
+    un ingresso omaggio per Play – Il Festival del Gioco prossima edizione;
+    la possibilità di far giocare la propria avventura all’interno di ToPlay 2021, con la copertura delle spese di
+    viaggio e ospitalità sino a un massimo di € 70,00.
+    In occasione della premiazione si inviteranno i/le tre master vincitori/vincitrici a far giocare la loro avventura
+    ai partecipanti di ToPlay.
+  </p>
+  <p>
+
+    La partecipazione è gratuita e ogni partecipante può concorrere con più avventure fino a un massimo di tre.
+  </p>
+
   <h2>
     Le Faq
   </h2>

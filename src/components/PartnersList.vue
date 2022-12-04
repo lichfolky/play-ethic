@@ -27,20 +27,24 @@
 }
 
 ul {
-    max-width: var(--page-width);
-    margin: var(--page-margin);
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    padding: 0;
+}
+
+li::marker {
+    content: "";
 }
 
 li {
-    list-style: none;
+    padding: 0;
 }
 
 li img {
-    height: 100px;
+    height: 75px;
 
 }
 </style>
