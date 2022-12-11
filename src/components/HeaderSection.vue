@@ -13,12 +13,12 @@ let showMenu = ref(false);
                 <li class="title">
                     <RouterLink to="/">PLAY ETHIC!</RouterLink>
                 </li>
-                <li>
+                <!-- <li>
                     <RouterLink to="/call">Call for adventures!</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/avventure">Le avventure passate</RouterLink>
-                </li>
+                </li> -->
                 <!-- <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
@@ -36,12 +36,12 @@ let showMenu = ref(false);
                 <DiceHamburger class="menu-dice" @click="(showMenu = !showMenu)" />
             </div>
             <ul v-if="showMenu">
-                <li>
+                <!-- <li>
                     <RouterLink to="/call">Call for adventures!</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/avventure">Le avventure passate</RouterLink>
-                </li>
+                </li> -->
                 <!-- <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>

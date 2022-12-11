@@ -13,7 +13,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        title: 'PLAY ETHIC | Promuove il gioco',
+        title: 'Play Ethic',
         metaTags: [
           {
             name: 'description',

@@ -19,7 +19,6 @@
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
     "postcss": "^8.4.19",
-    "sharp": "^0.31.2",
     "vite": "^3.2.4"
   }
 }

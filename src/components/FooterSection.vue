@@ -2,17 +2,21 @@
 <template>
     <footer>
         <div class="wrap">
-            <a href="http://www.alteracultura.org/">
-                Altera c/o CasArcobaleno - Via Bernardino Lanino 3/A, 10152 Torino</a>
+            <div class="alteraadd">
+
+                <a href="http://www.alteracultura.org/">
+                    Altera: c/o CasArcobaleno - Via Bernardino Lanino 3/A, 10152 Torino</a>
+
+            </div>
             <div class="copy">
                 <small>
-                    Play Ethic - 2022
+                    Play Ethic
                 </small>
                 <div>
                     <small>
                         Created by
                     </small>
-                    <a href="">
+                    <a href="mailto:mattia.folcarelli@gmail.com">
                         Artax
                     </a>
                 </div>
@@ -23,6 +27,11 @@
 </template>
 
 <style>
+.alteraadd {
+    text-align: center;
+    padding-top: 1rem;
+}
+
 footer {
     background-color: var(--color-nav-background);
     color: var(--color-text-nav);

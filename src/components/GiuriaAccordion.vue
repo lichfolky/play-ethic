@@ -27,7 +27,7 @@ giuria.sort((persona1, persona2) => persona1.nome > persona2.nome);
 
 <template>
     <ul class="giuria">
-        <li v-for="persona of giuria">
+        <li v-for="[persona, index] of giuria" :key="index">
             <h3>{{ persona.nome }}</h3>
             <em>{{ persona.titolo }}</em>
             <div class="persona">

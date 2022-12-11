@@ -1,5 +1,4 @@
 <script setup>
-import SkipLink from './components/SkipLink.vue';
 import FooterSection from './components/FooterSection.vue';
 import HeaderSection from './components/HeaderSection.vue';
 import PartnersList from './components/PartnersList.vue';
