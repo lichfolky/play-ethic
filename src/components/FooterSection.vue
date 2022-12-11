@@ -13,9 +13,15 @@
                     Play Ethic
                 </small>
                 <div>
+                    <a href="mailto:info@alteracultura.org">
+                        info@alteracultura.org
+                    </a>
+                </div>
+                <div>
                     <small>
                         Created by
                     </small>
+
                     <a href="mailto:mattia.folcarelli@gmail.com">
                         Artax
                     </a>
@@ -60,6 +66,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0 1rem 0;
+    align-items: center;
 }
 
 small {
