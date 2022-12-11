@@ -175,7 +175,7 @@ ul.short {
 }
 
 li::marker {
-  content: '# ';
+  content: '✧ ';
   font-weight: 700;
   color: var(--color-orange-dark);
 }
