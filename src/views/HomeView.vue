@@ -1,5 +1,4 @@
 <script setup>
-import SectionSeparator from '@/components/SectionSeparator.vue';
 import DiceIcon from '@/components/icons/DiceIcon.vue';
 import AwesomeSeparator from '../components/AwesomeSeparator.vue';
 </script>
@@ -11,7 +10,7 @@ import AwesomeSeparator from '../components/AwesomeSeparator.vue';
         <h1>PLAY ETHIC!</h1>
         <h2 class="subtitle">Giochi di ruolo per il sociale</h2>
       </div>
-      <p><strong>PLAY ETHIC</strong> è un progetto di
+      <p class="intro"><strong>PLAY ETHIC</strong> è un progetto di
         <a href="http://www.alteracultura.org/">Altera APS</a>, sviluppato in collaborazione con <a
           href="https://www.facebook.com/IlFortunaDado/">Il
           FortunaDado</a> e realizzato con il
@@ -21,25 +20,22 @@ import AwesomeSeparator from '../components/AwesomeSeparator.vue';
         collettiva,
         stimolando relazioni, empatia e curiosità.
       </p>
-      <p>
-        <picture>
-          <source media="(max-width: 600px)" srcset="@/assets/img/photos/book.png" width="300" />
-          <source media="(max-width: 1270px)" srcset="@/assets/img/photos/book.png" width="500" />
-          <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp"
-            width="650" />
-        </picture>
-      </p>
+      <picture class="book">
+        <source media="(max-width: 600px)" srcset="@/assets/img/photos/book.png" width="300" />
+        <source media="(max-width: 1270px)" srcset="@/assets/img/photos/book.png" width="500" />
+        <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp" width="650"
+          height="650" />
+      </picture>
       <h2>
         La nuova call for adventures!
       </h2>
       <p>
-        A <strong>gennaio 2023</strong> uscirà la seconda edizione della <strong>Call for adventures Play
-          Ethic</strong>, per autori e autrici di avventure di gioco di ruolo che sappiano stimolare giocatori e
-        giocatrici a
-        interrogarsi su dilemmi etici non banali, mettersi in discussione e sperimentare nuove possibilità.
+        La seconda edizione della <strong>Call for adventures Play Ethic</strong> è per autori e autrici di avventure di
+        gioco di ruolo che sappiano stimolare giocatori e giocatrici ad interrogarsi su dilemmi etici, mettersi in
+        discussione e sperimentare nuove possibilità e immedesimazioni.
       </p>
       <p>
-        La call prevederà una rosa di linee tematiche e le avventure proposte dovranno enfatizzare almeno una tra
+        La prevede una rosa di linee tematiche e le avventure proposte dovranno enfatizzare almeno una tra
         queste. Le avventure dovranno utilizzare sistemi di gioco con licenze open ed essere rilasciate con licenza
         creative commons.
       </p>
@@ -122,39 +118,37 @@ import AwesomeSeparator from '../components/AwesomeSeparator.vue';
   </section>
   <AwesomeSeparator />
 
-  <section class="altera">
+  <section class="logo-text">
+    <img alt="altera logo" class="altera-logo" src="@/assets/img/altera-logo.svg" />
     <p>
       L’associazione culturale Àltera è nata nel 2001 dalla collaborazione di lavoratori, studenti e docenti
       universitari
       dell’area torinese. Altera si propone di comprendere e discutere criticamente i mutamenti culturali, artistici e
       sociali della società in cui viviamo.
     </p>
-
-    <strong>
-      PER RICEVERE AGGIORNAMENTI SULLA CALL ISCRIVITI ALLA NOSTRA NEWSLETTER
-    </strong>
-    <p>
-      Quando partirà la call, riceverai una mail con tutti i dettagli del contest e rimarrai aggiornato sulle attività
-      di
-      Play Ethic e le nostre iniziative.
-    </p>
-    <div id="mc_embed_signup">
-      <form
+  </section>
+  <section>
+    <h3 class="newsletter-title">
+      Iscriviti alla nostra newsletter
+    </h3>
+    <div class="newsletter">
+      <p class="small">
+        Quando partirà la call, riceverai una mail con tutti i dettagli del contest e aggiornamenti sulle attività
+        di Play Ethic e altre nostre iniziative.
+      </p>
+      <form id="newsletter-form"
         action="https://alteracutura.us14.list-manage.com/subscribe/post?u=94050c7fdc8ebd7da4094157d&amp;id=227e82f7fb"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-        novalidate="">
-        <div id="mc_embed_signup_scroll">
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="indirizzo email"
-            required="">
-          <div style="position: absolute; left: -5000px" aria-hidden="true">
-            <input type="text" name="b_94050c7fdc8ebd7da4094157d_227e82f7fb" tabindex="-1" value="">
-          </div>
-          <div class="clear">
-            <input type="submit" value="Iscriviti" name="subscribe" id="mc-embedded-subscribe" class="button">
-          </div>
+        method="post" name="subscribe-form" class="validate" target="_blank" novalidate="">
+        <input id="email" type="email" value="" name="email" class="email" placeholder="indirizzo email" required>
+        <div style="position: absolute; left: -5000px" aria-hidden="true">
+          <input type="text" name="b_94050c7fdc8ebd7da4094157d_227e82f7fb" tabindex="-1" value="">
+        </div>
+        <div class="clear">
+          <input type="submit" value="Iscriviti" name="subscribe" class="button">
         </div>
       </form>
     </div>
+
   </section>
 
 </template>
@@ -164,12 +158,24 @@ import AwesomeSeparator from '../components/AwesomeSeparator.vue';
   padding-top: 0.5rem;
 }
 
+section.grid {
+  grid-template-columns: minmax(auto, 600px) auto;
+}
+
 aside {
-  padding-top: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  width: 100%;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.intro {
+  padding-bottom: 3rem;
+}
+
+.book {
+  padding-bottom: 2rem;
+
 }
 
 .call {
@@ -181,15 +187,6 @@ aside {
   width: 100%;
 }
 
-.altera,
-.avventure,
-.call,
-.giuria {
-  margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 1rem;
-}
 
 aside>img {
   margin-bottom: 2rem;
@@ -204,10 +201,6 @@ aside>img {
   justify-content: center;
 }
 
-section.center {
-  justify-content: center;
-}
-
 #dice {
   float: left;
   fill: var(--color-orange-dark);
@@ -215,12 +208,56 @@ section.center {
   padding-right: 1rem;
 }
 
-#mc_embed_signup_scroll {
+section .newsletter {
   display: flex;
-  padding: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: var(--text-width);
 }
 
-input {
-  height: 100%;
+.newsletter-title {
+  text-align: center;
+}
+
+#newsletter-form {
+  display: flex;
+  padding: 1rem 0;
+  height: 4rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.newsletter p {
+  flex: 1 0 100%;
+}
+
+#newsletter-form .email {
+  width: 30ch;
+}
+
+#newsletter-form .button {
+  min-height: 32px;
+}
+
+section.call {
+  font-weight: 700;
+}
+
+section.logo-text {
+  display: flex;
+  align-items: center;
+  width: clamp(400px, auto, var(--page-width));
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+section.logo-text p {
+  flex: 1 0 100%;
+}
+
+section.logo-text .altera-logo {
+  max-width: 125px;
 }
 </style>

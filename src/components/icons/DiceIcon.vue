@@ -6,9 +6,8 @@
     </svg>
 
 </template>
-<!-- <style>
-#dice svg {
-    fill: var(--color-orange-dark);
-    height: 100%;
+<style>
+#dice {
+    width: fit-content;
 }
-</style> -->
+</style>

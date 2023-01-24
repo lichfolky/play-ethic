@@ -13,46 +13,49 @@
 
 :root {
   /* Palette */
-  --color-black: hsl(0, 0%, 5%);
   --color-white: hsl(10, 60%, 98%);
-  /* #fdf8f7 */
-  --color-orange-darker: hsl(8, 67%, 7%);
-  /* #1e0906 */
-  --color-orange-dark: hsl(9, 69%, 19%);
-  --color-orange-light: hsl(9, 69%, 45%);
-  --color-text: hsl(11, 68%, 5%);
-  --color-accent: hsl(9, 69%, 50%);
-  --color-accent--light: hsl(32, 88%, 53%);
+  --color-black: hsl(8, 67%, 7%);
+  --color-ochre: hsl(32, 88%, 53%);
+  --color-orange: hsl(9, 69%, 45%);
+  --color-brown: hsl(9, 69%, 19%);
 
-  /* Elements colors */
+  --color-white: #fdf8f7;
+  --color-ochre: #f18e1e;
+  --color-orange: #c23b24;
+  --color-brown: #52190f;
+  --color-black: #1e0906;
+
+
+  --color-text: var(--color-black);
+  --color-accent: var(--color-orange);
+  --color-accent--light: var(--color-ochre);
+
+  --color-background: var(--color-black);
+  --color-nav-background: var(--color-black);
+  --color-main-background: var(--color-white);
+
+  /* Nav */
   --color-text-nav: var(--color-white);
   --color-text-nav-title: var(--color-accent);
+
+  /* Links */
   --color-link: var(--color-accent);
   --color-link--hover: var(--color-accent--light);
 
-  --color-background: var(--color-orange-darker);
-  --color-nav-background: var(--color-orange-darker);
-  --color-main-background: var(--color-white);
+
   /* Layout */
   --page-padding-inline: 2rem;
-  --page-padding-top: 4rem;
+  --page-padding-top: 2.5rem;
 
   --footer-height: 3rem;
   --nav-height: 3.5rem;
-  /*
-      2560/2 = 1280px * 545px Macbook Pro Retina, 13-inch
 
-      (2560 × 1600)?
-
-      1040px * huawei Matebook
-      --page-width: 1200px;
-  */
-  --page-width: 1280px;
-  --text-width: 44rem;
+  --page-width: 1366px;
+  --text-width: 40rem;
 
   /* Typography */
   /* Base font size become 18px */
-  font-size: 125%;
+  font-size: 112.5%;
   --font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,8 +85,9 @@ picture,
 video,
 canvas,
 svg {
-  /* width: 100%; */
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -100,7 +104,6 @@ body {
   font-weight: 400;
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
-  /* for MACs */
 }
 
 input,
@@ -120,39 +123,47 @@ a:hover {
 }
 
 h1 {
-  font-size: 9rem;
+  color: var(--color-accent);
+  font-size: 9.5rem;
   line-height: 0.75;
-  color: var(--color-orange-light);
   font-weight: 900;
   letter-spacing: -0.02rem;
   margin-left: -0.05em;
   padding-bottom: 0.5rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   user-select: none;
-
 }
 
-h2 {
-  color: var(--color-orange-dark);
-  letter-spacing: -0.03rem;
-  padding-bottom: 1.5rem;
-  padding-top: 1rem;
+h2,
+h3 {
+  color: var(--color-brown);
   text-transform: uppercase;
   font-weight: 900;
+  padding-top: 1rem;
   line-height: 1;
-  font-size: 1.75rem;
+  padding-bottom: 1.5rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   user-select: none;
 
 }
 
+h2 {
+  letter-spacing: -0.05rem;
+  font-size: 1.8rem;
+}
+
 h3 {
   letter-spacing: -0.02rem;
+  font-size: 1rem;
 }
 
 p {
   max-width: var(--text-width);
   padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+p.small {
+  max-width: calc(var(--text-width) * 0.9);
 }
 
 ul {
@@ -169,17 +180,17 @@ li p {
   padding: 1rem 0 1rem 0;
 }
 
-p.short,
+/* p.short,
 ul.short {
   max-width: 600px;
-}
+} */
 
 li::marker {
   content: '✧ ';
   font-weight: 700;
-  color: var(--color-orange-dark);
+  color: var(--color-brown);
 }
 
 strong {
-  color: var(--color-orange-dark);
+  color: var(--color-brown);
 }

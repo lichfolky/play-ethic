@@ -20,10 +20,4 @@ import PartnersList from './components/PartnersList.vue';
 .main-wrapper {
   background-color: var(--color-main-background);
 }
-
-main {
-  width: var(--page-width);
-  padding: var(--page-padding-top) var(--page-padding-inline) 0 var(--page-padding-inline);
-  margin: 0 auto;
-}
 </style>
