@@ -18,8 +18,7 @@ import PartnersList from '../components/PartnersList.vue';
     </a></h3>
   <h4>
 
-    <a
-      href="https://drive.google.com/file/d/1RpIbw9iSvNLIc8AnnoLzp5QxzO-i9UOJ/view?usp=sharinghttps://drive.google.com/file/d/13-di_pUDsWqXDb4ZAUFgROZii-6OobAF/view?usp=sharing">Comunicato
+    <a href="https://drive.google.com/file/d/13-di_pUDsWqXDb4ZAUFgROZii-6OobAF/view?usp=sharing">Comunicato
       stampa</a>
   </h4>
 
