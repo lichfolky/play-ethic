@@ -27,7 +27,7 @@ let showMenu = ref(false);
                     <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/edizionipassate">Le edizioni passate</RouterLink>
+                    <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
                 </li>
 
                 <!-- 
@@ -46,13 +46,15 @@ let showMenu = ref(false);
             </div>
             <ul v-if="showMenu">
                 <li>
-                    <RouterLink to="/call">Call for adventures!</RouterLink>
-                </li>
-                <li>
-                    <RouterLink to="/avventure">Le avventure passate</RouterLink>
+                    <RouterLink to="/call">La call</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
+
+                </li>
+                <li>
+                    <RouterLink to="/avventure">La prima edizione</RouterLink>
+
                 </li>
                 <!--
                 <li>

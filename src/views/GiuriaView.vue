@@ -21,10 +21,9 @@ import GiuriaComitato from '../components/GiuriaComitato.vue';
       potrà avvalersi di consulenze da parte di esterni di comprovata competenza in materia.
       In particolare, si avvarrà della consulenza di esperti/e provenienti da Enti del Terzo Settore e ricercatrici
       universitarie come di seguito dettagliato, esperti/e che potranno assegnare una menzione di merito:
-
     </p>
     <ul>
-      <li>l’ONG <strong>CIFA</strong> (www.cifaong.it) sui temi “Corpo e tecnologia” e “Intersezionalità delle
+      <li>l’ONG <strong>C.I.F.A. ETS</strong> (www.cifaong.it) sui temi “Corpo e tecnologia” e “Intersezionalità delle
         discriminazioni”
       </li>
       <li>l'associazione <strong>Giosef Torino</strong> (www.gioseftorino.eu) sui temi “Intersezionalità delle

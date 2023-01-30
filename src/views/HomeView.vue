@@ -11,10 +11,10 @@ import PartnersList from '../components/PartnersList.vue';
     <HomeGallery />
   </section>
   <h3 class="call2action">
-    Per partecipare, <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
+    Partecipa: <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
       consulta
       il
-      bando.
+      regolamento.
     </a></h3>
   <h4>
 
