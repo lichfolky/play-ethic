@@ -41,8 +41,10 @@ import PartnersList from '../components/PartnersList.vue';
     </div>
 
   </section>
+  <div class="separator"></div>
+
   <h3 class="call2action">
-    Partecipa: <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
+    Per partecipare <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
       consulta
       il
       regolamento.
@@ -52,6 +54,8 @@ import PartnersList from '../components/PartnersList.vue';
     <a href="https://drive.google.com/file/d/13-di_pUDsWqXDb4ZAUFgROZii-6OobAF/view?usp=sharing">Comunicato
       stampa</a>
   </h4>
+  <div class="separator"></div>
+
   <!-- 
   <section class="giuria">
     <h2>LA GIURIA</h2>
@@ -91,6 +95,7 @@ import PartnersList from '../components/PartnersList.vue';
 
 h4 {
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .call2action {

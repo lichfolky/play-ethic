@@ -23,17 +23,20 @@ import GiuriaComitato from '../components/GiuriaComitato.vue';
       universitarie come di seguito dettagliato, esperti/e che potranno assegnare una menzione di merito:
     </p>
     <ul>
-      <li>l’ONG <strong>C.I.F.A. ETS</strong> (www.cifaong.it) sui temi “Corpo e tecnologia” e “Intersezionalità delle
+      <li>l’ONG <a href="www.cifaong.it"><strong>C.I.F.A. ETS</strong></a> sui temi “Corpo e tecnologia” e
+        “Intersezionalità delle
         discriminazioni”
       </li>
-      <li>l'associazione <strong>Giosef Torino</strong> (www.gioseftorino.eu) sui temi “Intersezionalità delle
+      <li>l'associazione <a href="www.gioseftorino.eu"><strong>Giosef Torino</strong> </a> sui temi “Intersezionalità
+        delle
         discriminazioni” e
         “Globale/locale”
       </li>
-      <li>l’associazione <strong>Legambiente Piemonte e Valle d'Aosta</strong> (www.legambientepiemonte.it) e
-        <strong>Mercato
-          Circolare</strong> srl -
-        Società Benefit (www.mercatocircolare.it) sul tema “Sostenibilità ambientale, sociale ed economica”
+      <li>l’associazione <a href="www.legambientepiemonte.it"><strong>Legambiente Piemonte e Valle d'Aosta</strong> </a>
+        e
+        <a href="www.mercatocircolare.it"><strong>Mercato
+            Circolare</strong></a> Srl -
+        Società Benefit sul tema “Sostenibilità ambientale, sociale ed economica”
       </li>
       <li>le esperte <strong>Costanza Agnella</strong> (dottoressa di ricerca in Diritti e Istituzioni presso il
         dipartimento di

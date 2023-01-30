@@ -8,35 +8,30 @@
     diverse da loro.
   </p>
 
-  <h3 class="call2action">
-    Partecipa: <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
-      consulta
-      il
-      regolamento.
-    </a></h3>
+
   <h2>Quando</h2>
   <p>
-    La call si apre il 30 gennaio 2023 e si chiuderà il 15 giugno 2023.
+    La call si apre il <strong>30 gennaio 2023</strong> e si chiuderà il <strong>15 giugno 2023</strong>.
 
   </p>
   <p>
     La partecipazione è gratuita e ogni partecipante può concorrere con più avventure fino a un massimo di tre.
   </p>
   <h2>Premi</h2>
-  <p>
-    In occasione della premiazione si inviteranno gli autori / le autorici delle tre avventure vincitrici a far giocare
-    la loro avventura all'interno di ToPlay 2023.
-
-  </p>
-  <p>
-
-    Riceveranno inoltre:
-  </p>
 
   <ul>
-    <li>Un ingresso omaggio per Lucca Comics & Games 2023</li>
-    <li>Un ingresso omaggio per Play – Il Festival del Gioco</li>
+    <li>La possibilità di far giocare la propria avventura all'interno di <strong>ToPlay 2023</strong></li>
+    <li>Un ingresso omaggio per <strong>Lucca Comics & Games 2023</strong></li>
+    <li>Un ingresso omaggio per <strong>Play – Il Festival del Gioco</strong></li>
   </ul>
+
+
+  <h3 class="call2action">
+    Per partecipare <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
+      consulta
+      il
+      regolamento.
+    </a></h3>
   <!--
   <h2>
     Le Faq

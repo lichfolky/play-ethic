@@ -21,7 +21,7 @@ let showMenu = ref(false);
                     <RouterLink to="/">PLAY ETHIC!</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/call">La call</RouterLink>
+                    <RouterLink to="/call">La call for adventures</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
@@ -46,7 +46,7 @@ let showMenu = ref(false);
             </div>
             <ul v-if="showMenu">
                 <li>
-                    <RouterLink to="/call">La call</RouterLink>
+                    <RouterLink to="/call">La call for adventures</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
