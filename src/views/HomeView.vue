@@ -10,21 +10,11 @@ import PartnersList from '../components/PartnersList.vue';
     <HomeMain />
     <HomeGallery />
   </section>
-  <h3 class="call2action">
-    Partecipa: <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
-      consulta
-      il
-      regolamento.
-    </a></h3>
-  <h4>
 
-    <a href="https://drive.google.com/file/d/13-di_pUDsWqXDb4ZAUFgROZii-6OobAF/view?usp=sharing">Comunicato
-      stampa</a>
-  </h4>
 
   <div class="separator"></div>
   <section class="avventure">
-    <h2>LE AVVENTURE</h2>
+    <!-- <h2>LE AVVENTURE</h2> -->
     <div>
       <p>
         <DiceIcon />
@@ -49,7 +39,19 @@ import PartnersList from '../components/PartnersList.vue';
         </li>
       </ul>
     </div>
+
   </section>
+  <h3 class="call2action">
+    Partecipa: <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
+      consulta
+      il
+      regolamento.
+    </a></h3>
+  <h4>
+
+    <a href="https://drive.google.com/file/d/13-di_pUDsWqXDb4ZAUFgROZii-6OobAF/view?usp=sharing">Comunicato
+      stampa</a>
+  </h4>
   <!-- 
   <section class="giuria">
     <h2>LA GIURIA</h2>
