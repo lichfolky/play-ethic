@@ -17,14 +17,15 @@
                         info@alteracultura.org
                     </a>
                 </div>
-                <div>
+                <div class="artax">
                     <small>
                         Created by
-                    </small>
 
-                    <a href="mailto:mattia.folcarelli@gmail.com">
-                        Artax
-                    </a>
+
+                        <a href="mailto:mattia.folcarelli@gmail.com">
+                            Artax
+                        </a>
+                    </small>
                 </div>
             </div>
         </div>
@@ -67,9 +68,11 @@ footer a {
     justify-content: space-between;
     padding: 1rem 0 1rem 0;
     align-items: center;
+    gap: 1rem;
 }
 
-small {
-    font-size: 0.8rem;
+.artax {
+    line-height: 1;
+    text-align: center;
 }
 </style>

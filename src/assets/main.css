@@ -3,19 +3,14 @@
 /* LAYOUT & RESPONSIVENESS */
 
 main {
+    background-color: var(--color-main-background);
+}
+
+.content {
+    padding: var(--page-padding-top) var(--page-padding-inline) var(--page-padding-bottom) var(--page-padding-inline);
     max-width: var(--page-width);
-    padding: var(--page-padding-top) var(--page-padding-inline) 0 var(--page-padding-inline);
     margin: 0 auto;
 }
-
-section {
-    display: grid;
-    grid-template-columns: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    justify-content: center;
-}
-
 
 :is(aside, section, .col, nav, div).mobile {
     display: none;
@@ -25,6 +20,9 @@ section {
 @media (max-width: 1000px) {
     :root {
         font-size: 100%;
+        --page-padding-inline: var(--page-padding-inline--mobile);
+        --page-padding-bottom: var(--page-padding-bottom--mobile);
+        --page-padding-top: var(--page-padding-top--mobile);
     }
 
     section.grid {

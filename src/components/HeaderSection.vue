@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref } from 'vue';
 
 import { RouterLink } from 'vue-router';
 import DiceHamburger from './icons/DiceHamburger.vue';
@@ -7,21 +7,30 @@ let showMenu = ref(false);
 </script>
 
 <template>
+    <div class="top-call">
+        Partecipa alla nuova <a
+            href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">call for
+            adventures!
+        </a>
+    </div>
     <header>
+
         <nav class="desktop">
             <ul>
                 <li class="title">
                     <RouterLink to="/">PLAY ETHIC!</RouterLink>
                 </li>
-                <!-- <li>
-                    <RouterLink to="/call">Call for adventures!</RouterLink>
+                <li>
+                    <RouterLink to="/call">La call</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/avventure">Le avventure passate</RouterLink>
-                </li> -->
-                <!-- <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/edizionipassate">Le edizioni passate</RouterLink>
+                </li>
+
+                <!-- 
                 <li>
                     <RouterLink to="/eventi">Gli eventi</RouterLink>
                 </li> -->
@@ -36,15 +45,16 @@ let showMenu = ref(false);
                 <DiceHamburger class="menu-dice" @click="(showMenu = !showMenu)" />
             </div>
             <ul v-if="showMenu">
-                <!-- <li>
+                <li>
                     <RouterLink to="/call">Call for adventures!</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/avventure">Le avventure passate</RouterLink>
-                </li> -->
-                <!-- <li>
+                </li>
+                <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
+                <!--
                 <li>
                     <RouterLink to="/eventi">Gli eventi</RouterLink>
                 </li> -->
@@ -56,6 +66,13 @@ let showMenu = ref(false);
 </template>
 
 <style scoped>
+.top-call {
+    background-color: #000;
+    color: var(--color-ochre);
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
 header {
     background-color: var(--color-nav-background);
     color: var(--color-text-nav);
@@ -127,7 +144,6 @@ nav.mobile ul {
 .menu-dice {
     height: 75px;
     width: 75px;
-    padding: 0.5rem;
     fill: var(--color-white);
     transform: rotate(-180deg);
 }

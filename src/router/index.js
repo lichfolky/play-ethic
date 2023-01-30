@@ -1,8 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+// eslint-disable-next-line no-unused-vars
 import CallView from '../views/CallView.vue';
+// eslint-disable-next-line no-unused-vars
 import GiuriaView from '../views/GiuriaView.vue';
+// eslint-disable-next-line no-unused-vars
 import AvventureView from '../views/AvventureView.vue';
+// eslint-disable-next-line no-unused-vars
 import EventiView from '../views/EventiView.vue';
 
 const router = createRouter({
@@ -17,7 +21,7 @@ const router = createRouter({
         metaTags: [
           {
             name: 'description',
-            content: 'Play ethic è un progetto per diffondere il gioco etico'
+            content: 'Play ethic è un progetto per eplorare il valore educativo del gioco'
           },
 
         ]
@@ -27,7 +31,7 @@ const router = createRouter({
       path: '/call',
       name: 'call',
       meta: {
-        title: 'PLAY ETHIC | La call'
+        title: 'Play Ethic | La call'
       },
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -37,7 +41,7 @@ const router = createRouter({
       path: '/giuria',
       name: 'giuria',
       meta: {
-        title: 'PLAY ETHIC | La giuria'
+        title: 'Play Ethic | La giuria'
       },
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -45,10 +49,10 @@ const router = createRouter({
       component: () => import('../views/GiuriaView.vue')
     },
     {
-      path: '/avventure',
-      name: 'avventure',
+      path: '/edizionipassate',
+      name: 'edizioniPassate',
       meta: {
-        title: 'PLAY ETHIC | Le avventure'
+        title: 'Play Ethic | Le edizioni passate'
       },
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -58,7 +62,7 @@ const router = createRouter({
       path: '/eventi',
       name: 'eventi',
       meta: {
-        title: 'PLAY ETHIC | Gli eventi'
+        title: 'Play Ethic | Gli eventi'
       },
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -66,13 +70,13 @@ const router = createRouter({
       component: () => import('../views/EventiView.vue')
     }
   ],
-  scrollBehavior(to, from, savedPosition) {
-    // always scroll to top
+  scrollBehavior() {
+    // always scroll to top (to, from, savedPosition)
     return { top: 0 };
   },
 });
 
-router.beforeEach((to, from) => {
+router.beforeEach((to) => {
 
   document.title = to.meta.title;
 
