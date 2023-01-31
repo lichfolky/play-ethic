@@ -50,7 +50,7 @@ const router = createRouter({
     },
     {
       path: '/edizionipassate',
-      name: 'edizioniPassate',
+      name: 'edizionipassate',
       meta: {
         title: 'Play Ethic | Le edizioni passate'
       },
