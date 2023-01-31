@@ -21,7 +21,7 @@ const router = createRouter({
         metaTags: [
           {
             name: 'description',
-            content: 'Play ethic è un progetto per eplorare il valore educativo del gioco'
+            content: 'Play ethic è un progetto per esplorare il valore educativo e sociale del gioco'
           },
 
         ]
