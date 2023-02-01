@@ -8,6 +8,7 @@ import GiuriaView from '../views/GiuriaView.vue';
 import AvventureView from '../views/AvventureView.vue';
 // eslint-disable-next-line no-unused-vars
 import EventiView from '../views/EventiView.vue';
+import PageNotFound from '../views/PageNotFound.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -68,7 +69,8 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/EventiView.vue')
-    }
+    },
+    { path: '/:pathMatch(.*)*', name: 'not-found', component: PageNotFound },
   ],
   scrollBehavior() {
     // always scroll to top (to, from, savedPosition)

@@ -1,11 +1,9 @@
 <template>
   <h2>La nuova call for adventures!</h2>
   <p>
-    E' partita la <strong>call for adventures Play Ethic</strong>, <dedicata></dedicata> ad avventure di gioco di ruolo
-    scritte per
-    promuovere nei
-    giocatori, attitudini cooperative e solidali, portandoli a sperimentare situazioni e identità
-    diverse da loro.
+    E' partita la <strong>call for adventures Play Ethic</strong>,
+    dedicata ad avventure di gioco di ruolo scritte per promuovere attitudini cooperative e solidali, portando giocatori
+    e giocatrici a sperimentare situazioni e identità diverse da loro.
   </p>
 
 
