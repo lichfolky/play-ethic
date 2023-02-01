@@ -9,8 +9,7 @@
 
   <h2>Quando</h2>
   <p>
-    La call si apre il <strong>30 gennaio 2023</strong> e si chiuderà il <strong>15 giugno 2023</strong>.
-
+    la Call si è aperta il <strong>30 gennaio 2023</strong> e si chiuderà il <strong>15 giugno 2023</strong>.
   </p>
   <p>
     La partecipazione è gratuita e ogni partecipante può concorrere con più avventure fino a un massimo di tre.
