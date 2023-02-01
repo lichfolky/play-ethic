@@ -57,7 +57,7 @@
 
 </template>
 
-<style>
+<style scoped>
 p,
 h3,
 h1,

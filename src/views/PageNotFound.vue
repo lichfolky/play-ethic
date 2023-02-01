@@ -4,7 +4,7 @@
     </h3>
 </template>
 
-<style embeded>
+<style scoped>
 h3 {
     text-align: center;
     max-width: 100%;
