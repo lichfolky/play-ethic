@@ -56,6 +56,10 @@ h1 {
   padding-bottom: 2rem;
 }
 
+h3 {
+  text-align: left;
+}
+
 p,
 h3,
 h1,
