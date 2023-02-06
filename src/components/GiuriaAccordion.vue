@@ -12,6 +12,7 @@ let giuria = [
     , { nome: "Mauro Longo", titolo: "Scrittore fantasy, autore di giochi di ruolo e libri game", descr: "", photo: "" }
     , { nome: "Marco Mengoli", titolo: "GAME Science Research Center", descr: "", photo: "" }
     , { nome: "Vincenzo Mollica", titolo: "Scrittore fantasy, autore di giochi", descr: "", photo: "" }
+    , { nome: "Erika Santin", titolo: "Lucca Comics&Games, Game Science Research Center", descr: "", photo: "" }
     , { nome: "Andrea Sfiligoi", titolo: "Game designer", descr: "", photo: "" }
     , { nome: "Chiara Tirabasso", titolo: "Master di precedenti edizioni di Play Ethic, Terre Spezzate", descr: "", photo: "" }
 ];

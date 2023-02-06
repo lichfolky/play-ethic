@@ -9,7 +9,7 @@ let showMenu = ref(false);
 <template>
     <div class="top-call">
         Partecipa alla nuova <a
-            href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">call for
+            href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing">call for
             adventures!
         </a>
     </div>

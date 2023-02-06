@@ -44,14 +44,14 @@ import PartnersList from '../components/PartnersList.vue';
   <div class="separator"></div>
 
   <h3 class="call2action">
-    Per partecipare <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
+    Per partecipare <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing">
       consulta
       il
       regolamento.
     </a></h3>
   <h4>
 
-    <a href="https://drive.google.com/file/d/13-di_pUDsWqXDb4ZAUFgROZii-6OobAF/view?usp=sharing">Comunicato
+    <a href="https://drive.google.com/file/d/1wu6iiZgTUS7UQ8qArkSbY9hrhr3oSc40/view?usp=sharing">Comunicato
       stampa</a>
   </h4>
   <div class="separator"></div>

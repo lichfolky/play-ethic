@@ -24,7 +24,7 @@
 
 
   <h3 class="call2action">
-    Per partecipare <a href="https://drive.google.com/file/d/1WwcLcNgVOa1Q6O3h3SxSi_jxlOUUw_sP/view?usp=sharing">
+    Per partecipare <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing">
       consulta
       il
       regolamento.
