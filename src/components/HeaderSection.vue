@@ -8,8 +8,8 @@ let showMenu = ref(false);
 
 <template>
     <div class="top-call">
-        Partecipa alla nuova <a
-            href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing">call for
+        Partecipa alla nuova <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing"
+            target=”_blank”>call for
             adventures!
         </a>
     </div>
@@ -31,9 +31,9 @@ let showMenu = ref(false);
                 </li>
 
                 <!-- 
-                <li>
-                    <RouterLink to="/eventi">Gli eventi</RouterLink>
-                </li> -->
+                        <li>
+                            <RouterLink to="/eventi">Gli eventi</RouterLink>
+                        </li> -->
             </ul>
 
         </nav>
@@ -57,9 +57,9 @@ let showMenu = ref(false);
 
                 </li>
                 <!--
-                <li>
-                    <RouterLink to="/eventi">Gli eventi</RouterLink>
-                </li> -->
+                        <li>
+                            <RouterLink to="/eventi">Gli eventi</RouterLink>
+                        </li> -->
             </ul>
 
         </nav>
