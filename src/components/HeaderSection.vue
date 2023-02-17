@@ -31,9 +31,9 @@ let showMenu = ref(false);
                 </li>
 
                 <!-- 
-                        <li>
-                            <RouterLink to="/eventi">Gli eventi</RouterLink>
-                        </li> -->
+                                        <li>
+                                            <RouterLink to="/eventi">Gli eventi</RouterLink>
+                                        </li> -->
             </ul>
 
         </nav>
@@ -50,16 +50,14 @@ let showMenu = ref(false);
                 </li>
                 <li>
                     <RouterLink to="/giuria">La giuria</RouterLink>
-
                 </li>
                 <li>
-                    <RouterLink to="/avventure">La prima edizione</RouterLink>
-
+                    <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
                 </li>
                 <!--
-                        <li>
-                            <RouterLink to="/eventi">Gli eventi</RouterLink>
-                        </li> -->
+                                        <li>
+                                            <RouterLink to="/eventi">Gli eventi</RouterLink>
+                                        </li> -->
             </ul>
 
         </nav>
