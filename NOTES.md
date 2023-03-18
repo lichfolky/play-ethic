@@ -67,8 +67,8 @@ Leo CRT
       (2560 × 1600)?
 
       1040px * huawei Matebook
-      --page-width: 1200px;
-      --page-width: 1280px;
+      --page-max-width: 1200px;
+      --page-max-width: 1280px;
 
       1366px * 768px
   */

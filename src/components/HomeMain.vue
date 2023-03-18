@@ -21,10 +21,7 @@
             stimolando relazioni, empatia e curiosità.
         </p>
         <picture class="book">
-            <source media="(max-width: 600px)" srcset="@/assets/img/photos/book.png" width="300" />
-            <source media="(max-width: 1270px)" srcset="@/assets/img/photos/book.png" width="500" />
-            <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp"
-                width="650" height="338" />
+            <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp" />
         </picture>
         <h2>
             La call for adventures!
@@ -42,9 +39,8 @@
         </p>
         <div class="slider mobile">
             <picture>
-                <source media="(max-width: 600px)" srcset="@/assets/img/photos/players.png" width="300" />
-                <source media="(max-width: 1270px)" srcset="@/assets/img/photos/players.png" width="500" />
-                <img alt="players" src="@/assets/img/photos/players.png" width="500" />
+
+                <img alt="players" src="@/assets/img/photos/players.png" />
             </picture>
         </div>
     </div>

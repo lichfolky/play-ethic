@@ -1,20 +1,12 @@
 <script setup>
 import { ref } from 'vue';
-
 import { RouterLink } from 'vue-router';
 import DiceHamburger from './icons/DiceHamburger.vue';
 let showMenu = ref(false);
 </script>
 
 <template>
-    <div class="top-call">
-        Partecipa alla nuova <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing"
-            target=”_blank”>call for
-            adventures!
-        </a>
-    </div>
     <header>
-
         <nav class="desktop">
             <ul>
                 <li class="title">
@@ -29,13 +21,7 @@ let showMenu = ref(false);
                 <li>
                     <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
                 </li>
-
-                <!-- 
-                                        <li>
-                                            <RouterLink to="/eventi">Gli eventi</RouterLink>
-                                        </li> -->
             </ul>
-
         </nav>
         <nav class="mobile">
             <div class="nav-bar">
@@ -54,55 +40,38 @@ let showMenu = ref(false);
                 <li>
                     <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
                 </li>
-                <!--
-                                        <li>
-                                            <RouterLink to="/eventi">Gli eventi</RouterLink>
-                                        </li> -->
             </ul>
-
         </nav>
-
     </header>
 </template>
 
 <style scoped>
-.top-call {
-    background-color: #000;
-    color: var(--color-ochre);
-    text-align: center;
-    padding: 0.4rem 0;
-}
-
 header {
-    background-color: var(--color-nav-background);
-    color: var(--color-text-nav);
     position: sticky;
     top: 0;
+    background-color: var(--color-nav-background);
+    color: var(--color-text-nav);
 }
 
-header nav {
-    max-width: var(--page-width);
+nav {
+    max-width: var(--page-max-width);
+    margin: 0 auto;
     padding-left: var(--page-padding-inline);
     padding-right: var(--page-padding-inline);
-    margin: 0 auto;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
 
-header ul {
+ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
     padding: 0;
     list-style: none;
-    max-width: var(--page-width);
 }
 
-header li {
-    list-style: none;
+li {
     padding: 0;
-}
-
-header li::marker {
-    content: "";
 }
 
 header a {
@@ -138,12 +107,13 @@ nav.mobile ul {
     flex-direction: column;
     gap: 1rem;
     align-items: flex-start;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 .menu-dice {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     fill: var(--color-white);
     transform: rotate(-180deg);
 }

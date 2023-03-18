@@ -30,7 +30,6 @@
             </div>
         </div>
     </footer>
-
 </template>
 
 <style>
@@ -43,7 +42,7 @@ footer {
     background-color: var(--color-nav-background);
     color: var(--color-text-nav);
     height: var(--footer-height);
-    max-width: var(--page-width);
+    max-width: var(--page-max-width);
     padding-left: var(--page-padding-inline);
     padding-right: var(--page-padding-inline);
     padding-top: 1rem;
@@ -52,7 +51,7 @@ footer {
 }
 
 footer .wrap {
-    max-width: var(--page-width);
+    max-width: var(--page-max-width);
     padding: var(--page-padding);
     gap: 1.5rem;
 }
