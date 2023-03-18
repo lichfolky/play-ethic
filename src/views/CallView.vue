@@ -68,7 +68,7 @@
       il
       regolamento.
     </a></h3>
-<!--
+  <!--
   <h2>
     Le Faq
   </h2>
@@ -95,7 +95,8 @@
 
     </li>
 
-  </ul> --></template>
+  </ul> -->
+</template>
 
 
 <style scoped>
@@ -109,6 +110,6 @@ h3,
 h1,
 h2,
 ul {
-  max-width: var(--text-width);
+  max-width: var(--text-max-width);
 }
 </style>

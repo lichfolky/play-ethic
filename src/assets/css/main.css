@@ -1,0 +1,73 @@
+@import "reset.css";
+@import "variables.css";
+@import "fonts.css";
+@import "typography.css";
+
+
+main {
+  background-color: var(--color-main-background);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  padding: var(--page-padding);
+  justify-items: center;
+}
+
+main>* {
+  grid-column: 2;
+  max-width: var(--text-max-width);
+}
+
+main .full-bleed {
+  grid-column: 1 / -1;
+}
+
+/* .mobile:is(aside, section, .col, nav, div) {
+  display: none;
+} */
+
+.mobile:is(nav, div) {
+  display: none;
+}
+
+
+@media (max-width: 1000px) {
+  :root {
+    --page-padding: var(--page-padding-mobile);
+  }
+
+  /* .mobile:is(aside, section, .col, nav, div) {
+    display: initial;
+  }
+
+  .desktop:is(aside, section, .col, nav, div) {
+    display: none;
+  } */
+
+  .mobile:is(nav, div) {
+    display: block;
+  }
+
+  .desktop:is(nav, div) {
+    display: none;
+  }
+
+  /*
+  section.grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  p {
+    padding: 0.5rem 0 1rem 0;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }*/
+}

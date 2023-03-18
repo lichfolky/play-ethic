@@ -20,6 +20,5 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-left: 3rem;
 }
 </style>

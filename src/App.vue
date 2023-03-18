@@ -1,19 +1,16 @@
 <script setup>
-import HeaderSection from './components/HeaderSection.vue';
+import TopBar from './components/TopBar.vue';
+import NavBar from './components/NavBar.vue';
 import FooterSection from './components/FooterSection.vue';
 </script>
 
 <template>
-  <!-- <SkipLink /> -->
-  <HeaderSection></HeaderSection>
-  <main id="main">
-    <div class="content">
-      <RouterView />
-    </div>
+  <TopBar></TopBar>
+  <NavBar></NavBar>
+  <main>
+    <RouterView />
   </main>
   <FooterSection />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

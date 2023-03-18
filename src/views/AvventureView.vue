@@ -54,7 +54,6 @@
       Riusciranno a superare le loro paure, e a farsi adottare da una famiglia amorevole?
     </em>
   </p>
-
 </template>
 
 <style scoped>
@@ -63,7 +62,7 @@ h3,
 h1,
 h2,
 ul {
-  max-width: var(--text-width);
+  max-width: var(--text-max-width);
 }
 
 h3 em {

@@ -13,8 +13,7 @@
             <form id="newsletter-form"
                 action="https://alteracutura.us14.list-manage.com/subscribe/post?u=94050c7fdc8ebd7da4094157d&amp;id=227e82f7fb"
                 method="post" name="subscribe-form" class="validate" target="_blank">
-                <input id="email" type="email" value="" name="email" class="email" placeholder="indirizzo email"
-                    required>
+                <input id="email" type="email" value="" name="email" class="email" placeholder="indirizzo email" required>
                 <div style="position: absolute; left: -5000px" aria-hidden="true">
                     <input type="text" name="b_94050c7fdc8ebd7da4094157d_227e82f7fb" tabindex="-1" value="">
                 </div>
@@ -31,7 +30,7 @@ section .newsletter {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: var(--text-width);
+    max-width: var(--text-max-width);
 }
 
 .newsletter-title {
