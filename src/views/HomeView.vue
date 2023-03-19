@@ -3,18 +3,16 @@ import DiceIcon from '@/components/icons/DiceIcon.vue';
 import HomeMain from '../components/HomeMain.vue';
 import HomeGallery from '../components/HomeGallery.vue';
 import PartnersList from '../components/PartnersList.vue';
-import AdventureSection from '../components/AdventureSection.vue';
+
 </script>
 
 <template>
   <section class="hero-grid">
     <HomeMain />
+
     <HomeGallery />
   </section>
 
-  <div class="separator"></div>
-
-  <AdventureSection />
   <div class="separator"></div>
 
   <h3 class="call2action">
@@ -44,9 +42,10 @@ import AdventureSection from '../components/AdventureSection.vue';
 .hero-grid {
   display: grid;
   grid-template-columns: min(var(--text-max-width), 100%) 1fr;
-  grid-template-columns: 3fr 2fr;
+  /* grid-template-columns: 3fr 2fr; */
   justify-content: space-between;
   max-width: var(--page-max-width);
+  width: 100%;
   gap: 2rem;
 }
 

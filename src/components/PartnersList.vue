@@ -5,20 +5,18 @@
             <div class="logo-list">
 
                 <a href="http://www.alteracultura.org/">
-                    <picture>
-                        <img alt="altera logo" src="@/assets/img/loghi/altera-logo.svg" />
-                    </picture>
+                    <img alt="altera logo" src="@/assets/img/loghi/altera-logo.svg" />
                 </a>
 
                 <a href="https://www.facebook.com/IlFortunaDado/">
                     <picture>
-                        <img alt="fortuna dado logo" src="@/assets/img/loghi/fortunadado-logo.png" />
+                        <img alt="fortuna dado logo" src="@/assets/img/loghi/fortunadado-logo.avif" />
                     </picture>
                 </a>
 
                 <a href="https://www.toplaytorino.it/">
                     <picture>
-                        <img alt="toplay" src="@/assets/img/loghi/Logo-toplay.png" />
+                        <img alt="toplay" src="@/assets/img/loghi/Logo-toplay.avif" />
                     </picture>
                 </a>
             </div>
@@ -29,7 +27,7 @@
             <div class="logo-list">
                 <a href="https://www.fondazionecrt.it/">
                     <picture id="fondazione">
-                        <img class="long" alt="fondazione crt logo" src="@/assets/img/loghi/fondazionecrt-logo.png"
+                        <img class="long" alt="fondazione crt logo" src="@/assets/img/loghi/fondazionecrt-logo.avif"
                             width="250" />
                     </picture>
                 </a>
@@ -42,21 +40,21 @@
 
                 <a href="https://gamescience.imtlucca.it/game-sci-re-center">
                     <picture>
-                        <img alt="GAME Science Research Center" src="@/assets/img/loghi/Logo-GSRC.png" height="80" />
+                        <img alt="GAME Science Research Center" src="@/assets/img/loghi/Logo-GSRC.avif" height="80" />
                     </picture>
                 </a>
 
                 <a href="https://www.luccacomicsandgames.com/it/">
                     <picture>
 
-                        <img alt="Lucca Comics & Games" src="@/assets/img/loghi/Logo-lucca-comics.png" />
+                        <img alt="Lucca Comics & Games" src="@/assets/img/loghi/Logo-lucca-comics.avif" />
                     </picture>
                 </a>
 
                 <a href="https://www.play-modena.it/">
                     <picture>
 
-                        <img alt="Play modena" src="@/assets/img/loghi/Logo-Play-Modena.png" />
+                        <img alt="Play modena" src="@/assets/img/loghi/Logo-Play-Modena.avif" />
                     </picture>
                 </a>
 
@@ -67,25 +65,25 @@
             <div class="logo-list">
                 <a href="https://www.cifaong.it/">
                     <picture>
-                        <img alt="cifa ong" src="@/assets/img/loghi/Logo-CIFA.png" />
+                        <img alt="cifa ong" src="@/assets/img/loghi/Logo-CIFA.avif" />
                     </picture>
                 </a>
 
                 <a href="https://www.gioseftorino.eu/">
                     <picture>
-                        <img alt="Giosef Torino" src="@/assets/img/loghi/Logo-giosef.jpg" />
+                        <img alt="Giosef Torino" src="@/assets/img/loghi/Logo-giosef.avif" />
                     </picture>
                 </a>
 
                 <a href="http://www.legambientepiemonte.it/">
                     <picture>
-                        <img alt="Legambiente Piemonte e Valle d’Aosta" src="@/assets/img/loghi/Logo-legambiente.png" />
+                        <img alt="Legambiente Piemonte e Valle d’Aosta" src="@/assets/img/loghi/Logo-legambiente.avif" />
                     </picture>
                 </a>
 
                 <a href="https://www.mercatocircolare.it/">
                     <picture>
-                        <img alt="mercato circolare" src="@/assets/img/loghi/Logo-MC.png" height="70" />
+                        <img alt="mercato circolare" src="@/assets/img/loghi/Logo-MC.avif" height="70" />
                     </picture>
                 </a>
 
@@ -110,8 +108,13 @@
     .partners-list {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+
     }
 
+    .logo-list {
+        flex-wrap: wrap;
+    }
 }
 
 .logo-list-wrapper {
@@ -126,11 +129,9 @@
     height: 100px;
 }
 
-
-
 .logo-list img:not([width], [height]) {
     object-fit: contain;
     height: 100px;
-    width: 100px;
+    aspect-ratio: 1;
 }
 </style>
