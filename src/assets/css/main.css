@@ -1,13 +1,13 @@
+@import "fonts.css";
 @import "reset.css";
 @import "variables.css";
-@import "fonts.css";
 @import "typography.css";
 
 
 main {
   background-color: var(--color-main-background);
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr minmax(auto, 100%) 1fr;
   padding: var(--page-padding);
   justify-items: center;
 }
@@ -25,29 +25,39 @@ main .full-bleed {
   display: none;
 } */
 
-.mobile:is(nav, div) {
+.mobile {
   display: none;
 }
 
+picture,
+img {
+  width: 100%;
+}
+
+p {
+  padding: 0.5rem 0 0.5rem 0;
+}
 
 @media (max-width: 1000px) {
   :root {
     --page-padding: var(--page-padding-mobile);
   }
 
-  /* .mobile:is(aside, section, .col, nav, div) {
-    display: initial;
+  main {
+    display: grid;
+    grid-template-columns: 100%;
   }
 
-  .desktop:is(aside, section, .col, nav, div) {
-    display: none;
-  } */
+  main>* {
+    grid-column: 1;
+  }
 
-  .mobile:is(nav, div) {
+
+  .mobile {
     display: block;
   }
 
-  .desktop:is(nav, div) {
+  .desktop {
     display: none;
   }
 

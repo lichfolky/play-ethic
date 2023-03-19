@@ -58,9 +58,6 @@ se vogliamo arci e toplay allora loro partner
 
 Leo CRT
 
-
-
-
   /*
       2560/2 = 1280px * 545px Macbook Pro Retina, 13-inch
 
@@ -72,3 +69,8 @@ Leo CRT
 
       1366px * 768px
   */
+
+  https://docs.netlify.com/cli/get-started/#share-a-live-development-server
+
+
+  npm install sharp
