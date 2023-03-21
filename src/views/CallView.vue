@@ -68,34 +68,63 @@
       il
       regolamento.
     </a></h3>
-<!--
-  <h2>
-    Le Faq
-  </h2>
+
+  <h2>FAQ</h2>
+
+
+  <p>In questa sezione raccogliamo le domande pervenute in entrambe le edizioni della call. Non esitate a inviarci altre
+    domande scrivendo a <a href="mailto:info@alteracultura.org">info@alteracultura.org</a> o contattandoci sui nostri
+    social. Vi risponderemo al più presto e
+    pubblicheremo le risposte in questa sezione!
+  </p>
   <ul>
-    <li>
-      <strong>Si possono presentare delle avventure scritte a più mani?</strong>
-      Certo che sì! Tutti i co-autori dovranno compilare e
-      spedire l’allegato 1 del presente bando… e in caso di vittoria, spartirsi in premio!
-
-
+    <li><strong>
+        Come vi mando la mia avventura? </strong> Devi inviarla, entro e non oltre il 15 giugno 2023, tramite email
+      all’indirizzo <a href="mailto:info@alteracultura.org?subject=Call Play Ethic">info@alteracultura.org</a>, con
+      oggetto “Call Play Ethic” e
+      seguendo le istruzioni riportate nel
+      regolamento (troverai indicazioni sulla stesura formale del testo e sugli allegati obbligatori e facoltativi).
     </li>
-    <li>
-      <strong>Vorrei scrivere un’avventura ispirata ad alcune mie esperienze professionali, ma il regolamento del
-        contest dice
-        che “non deve essere riportato il nome del partecipante né alcun riferimento esplicito” all’identità degli
-        autori.
-        Come posso fare? </strong>
-      L’anonimato serve solo ad evitare che le valutazioni della giuria siano influenzate dall’identità
-      degli autori: per intenderci, non firmatevi dentro al file dell’avventura e rimuovete il vostro nome dalle
-      proprietà del file prima di inviarcelo! Dopodiché, ben vengano le avventure ispirate al proprio vissuto –
-      avendo
-      magari cura di cambiare nomi di eventuali persone coinvolte per proteggere la privacy e questo genere di cose,
-      ecco!
-
+    <li><strong>I LARP da camera sono ammessi? </strong> Sì! La call in questa seconda edizione è aperta a giochi di ruolo
+      da tavolo (tabletop) e giochi di ruolo dal vivo (LARP). Scopri i dettagli nel regolamento!
+    </li>
+    <li><strong>
+        Si possono presentare delle avventure scritte a più mani?</strong> Certo che sì! Tutti i co-autori e le co-autrici
+      dovranno compilare e spedire l’allegato 1 del presente bando… e in caso di vittoria, spartirsi in premio!
+    </li>
+    <li><strong>
+        Ho due storie in mente... posso partecipare con entrambe?</strong> Certo! Ogni partecipante può concorrere con più
+      avventure fino a un massimo di tre.
     </li>
 
-  </ul> --></template>
+    <li><strong>
+        Posso partecipare anche se sono minorenne?</strong> Certo! I tuoi genitori saranno tenuti a dichiarare, a tuo nome
+      e a nome proprio, di aver preso visione, compreso e accettato il regolamento della call, sottoscrivedo gli allegati
+      1 e 2.
+    </li>
+    <li><strong>
+        Come funziona lato copyright?</strong> Non devono essere presenti, all’interno delle avventure e dei materiali
+      allegati, materiali protetti da copyright o che ledano, a qualsivoglia titolo, diritti di terzi. Sarà possibile, per
+      il/la partecipante, utilizzare sistemi di gioco già esistenti, purché rilasciati secondo licenza OGL e garantendo
+      comunque che non verranno utilizzati i contenuti identificati come “Product Identity” nella licenza OGL di
+      riferimento.
+    </li>
+    <li><strong>
+        Vorrei scrivere un’avventura ispirata ad alcune mie esperienze professionali, ma il regolamento del contest dice
+        che “non deve essere riportato il nome del partecipante né alcun riferimento esplicito” all’identità degli autori
+        e delle autrici. Come posso fare?</strong> L’anonimato serve solo ad evitare che le valutazioni della giuria siano
+      influenzate dall’identità degli autori e delle autrici: per intenderci, non firmatevi dentro al file dell’avventura
+      e rimuovete il vostro nome dalle proprietà del file prima di inviarcelo! Dopodiché, ben vengano le avventure
+      ispirate al proprio vissuto - avendo magari cura di cambiare nomi di eventuali persone coinvolte per proteggere la
+      privacy e questo genere di cose, ecco!
+    </li>
+    <li><strong>
+        Posso proporre un gioco da tavolo? </strong>In questa call non ci occupiamo di giochi da tavolo.
+    </li>
+  </ul>
+
+  <h3>Non vediamo l'ora di ricevere la tua avventura!!</h3>
+</template>
 
 
 <style scoped>
