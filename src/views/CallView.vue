@@ -5,16 +5,24 @@
     dedicata ad avventure di gioco di ruolo scritte per promuovere attitudini cooperative e solidali, portando giocatori
     e giocatrici a sperimentare situazioni e identità diverse da loro.
   </p>
-
-
   <h2>Quando</h2>
   <p>
-    la Call si è aperta il <strong>30 gennaio 2023</strong> e si chiuderà il <strong>15 giugno 2023</strong>.
+    la Call si è aperta il <strong>30 gennaio 2023</strong> e si chiuderà il <strong>5 luglio 2023</strong>.
+  </p>
+  <h2>Come partecipare</h2>
+  <p>
+    Invia la tua avventura via mail all'indirizzo <a href="mailto:info@alteracultura.org">info@alteracultura.org</a> entro
+    le ore entro mezzanotte del 05 luglio 2023, seguendo le istruzioni e utilizzando gli allegati che trovi nel
+    regolamento.</p>
+  <p>
+    Per permetterci di organizzare al meglio i lavori della giuria, ti chiediamo di
+    anticiparci un abstract della tua avventura entro il 20 giugno, compilando il modulo scaricabile al link
+    <a href="https://shorturl.at/gqGU1" target="_blank">https://shorturl.at/gqGU1</a> e inviandolo sempre alla mail <a
+      href="mailto:info@alteracultura.org">info@alteracultura.org</a>.
   </p>
   <p>
     La partecipazione è gratuita e ogni partecipante può concorrere con più avventure fino a un massimo di tre.
   </p>
-
   <h2>I temi</h2>
   <p>L'avventura dovrà trattare almeno una delle seguenti linee tematiche:</p>
   <ul>
@@ -55,7 +63,8 @@
   <h2>Premi</h2>
 
   <ul>
-    <li>La possibilità di far giocare la propria avventura all'interno di <strong>ToPlay 2023</strong></li>
+    <li>La possibilità di far giocare la propria avventura all'interno di <strong>ToPlay 2023</strong> (9/10 Settembre
+      2023)</li>
     <li>Un ingresso omaggio per <strong>Lucca Comics & Games 2023</strong></li>
     <li>Un ingresso omaggio per <strong>Play – Il Festival del Gioco</strong></li>
   </ul>
@@ -79,11 +88,17 @@
   </p>
   <ul>
     <li><strong>
-        Come vi mando la mia avventura? </strong> Devi inviarla, entro e non oltre il 15 giugno 2023, tramite email
-      all’indirizzo <a href="mailto:info@alteracultura.org?subject=Call Play Ethic">info@alteracultura.org</a>, con
-      oggetto “Call Play Ethic” e
-      seguendo le istruzioni riportate nel
-      regolamento (troverai indicazioni sulla stesura formale del testo e sugli allegati obbligatori e facoltativi).
+        Come vi mando la mia avventura? </strong>
+      Invia la tua avventura via mail all'indirizzo <a href="mailto:info@alteracultura.org">info@alteracultura.org</a>
+      entro
+      le ore entro mezzanotte del 05 luglio 2023, seguendo le istruzioni e utilizzando gli allegati che trovi nel
+      regolamento.
+
+      Per permetterci di organizzare al meglio i lavori della giuria, ti chiediamo di
+      anticiparci un abstract della tua avventura entro il 20 giugno, compilando il modulo scaricabile al link
+      <a href="https://shorturl.at/gqGU1" target="_blank">https://shorturl.at/gqGU1</a> e inviandolo sempre alla mail <a
+        href="mailto:info@alteracultura.org">info@alteracultura.org</a>.
+
     </li>
     <li><strong>I LARP da camera sono ammessi? </strong> Sì! La call in questa seconda edizione è aperta a giochi di ruolo
       da tavolo (tabletop) e giochi di ruolo dal vivo (LARP). Scopri i dettagli nel regolamento!
@@ -139,5 +154,9 @@ h1,
 h2,
 ul {
   max-width: var(--text-width);
+}
+
+.updated {
+  text-decoration: line-through;
 }
 </style>

@@ -12,9 +12,9 @@ let showMenu = ref(false);
             target=”_blank”>call for
             adventures!
         </a>
+        - SCADENZA PROROGATA AL 5 LUGLIO!
     </div>
     <header>
-
         <nav class="desktop">
             <ul>
                 <li class="title">
@@ -23,17 +23,17 @@ let showMenu = ref(false);
                 <li>
                     <RouterLink to="/call">La call for adventures</RouterLink>
                 </li>
-                <li>
-                    <RouterLink to="/giuria">La giuria</RouterLink>
-                </li>
+            <li>
+                <RouterLink to="/giuria">La giuria</RouterLink>
+            </li>
                 <li>
                     <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
                 </li>
 
                 <!-- 
-                                        <li>
-                                            <RouterLink to="/eventi">Gli eventi</RouterLink>
-                                        </li> -->
+                                                    <li>
+                                                        <RouterLink to="/eventi">Gli eventi</RouterLink>
+                                                    </li> -->
             </ul>
 
         </nav>
@@ -47,17 +47,17 @@ let showMenu = ref(false);
             <ul v-if="showMenu">
                 <li>
                     <RouterLink to="/call">La call for adventures</RouterLink>
-                </li>
-                <li>
-                    <RouterLink to="/giuria">La giuria</RouterLink>
+            </li>
+            <li>
+                <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
                 </li>
                 <!--
-                                        <li>
-                                            <RouterLink to="/eventi">Gli eventi</RouterLink>
-                                        </li> -->
+                                                    <li>
+                                                        <RouterLink to="/eventi">Gli eventi</RouterLink>
+                                                    </li> -->
             </ul>
 
         </nav>
