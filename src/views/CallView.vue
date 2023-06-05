@@ -12,7 +12,7 @@
   <h2>Come partecipare</h2>
   <p>
     Invia la tua avventura via mail all'indirizzo <a href="mailto:info@alteracultura.org">info@alteracultura.org</a> entro
-    le ore entro mezzanotte del 05 luglio 2023, seguendo le istruzioni e utilizzando gli allegati che trovi nel
+    le 23:59 del 05 luglio 2023, seguendo le istruzioni e utilizzando gli allegati che trovi nel
     regolamento.</p>
   <p>
     Per permetterci di organizzare al meglio i lavori della giuria, ti chiediamo di
