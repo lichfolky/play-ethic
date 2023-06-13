@@ -1,12 +1,13 @@
 <template>
-    <h3>
+    <h2>
         Pagina non trovata!
-    </h3>
+    </h2>
 </template>
 
 <style scoped>
-h3 {
+h2 {
     text-align: center;
     max-width: 100%;
+    min-height: 300px;
 }
 </style>
