@@ -5,12 +5,11 @@
                 <h3>Realizzato da</h3>
                 <ul>
                     <li>
-                        <a href="http://www.alteracultura.org/">
+                        <a href="https://www.alteracultura.org/">
                             <picture>
-                                <source media="(max-width: 1000px)" srcset="@/assets/img/loghi/altera-logo.svg"
-                                    width="75" height="60" />
-                                <img alt="altera logo" src="@/assets/img/loghi/altera-logo.svg" width="100"
-                                    height="100" />
+                                <source media="(max-width: 1000px)" srcset="@/assets/img/loghi/altera-logo.svg" width="75"
+                                    height="60" />
+                                <img alt="altera logo" src="@/assets/img/loghi/altera-logo.svg" width="100" height="100" />
                             </picture>
                         </a>
                     </li>
@@ -28,8 +27,8 @@
                     <li>
                         <a href="https://www.toplaytorino.it/">
                             <picture>
-                                <source media="(max-width: 1000px)" srcset="@/assets/img/loghi/Logo-toplay.png"
-                                    width="50" height="50" />
+                                <source media="(max-width: 1000px)" srcset="@/assets/img/loghi/Logo-toplay.png" width="50"
+                                    height="50" />
                                 <img alt="toplay" src="@/assets/img/loghi/Logo-toplay.png" width="100" height="100" />
                             </picture>
                         </a>
@@ -44,8 +43,8 @@
                             <picture id="fondazione">
                                 <source media="(max-width: 1000px)" srcset="@/assets/img/loghi/fondazionecrt-logo.png"
                                     height="50" width="150" />
-                                <img alt="fondazione crt logo" src="@/assets/img/loghi/fondazionecrt-logo.png"
-                                    height="75" width="100" />
+                                <img alt="fondazione crt logo" src="@/assets/img/loghi/fondazionecrt-logo.png" height="75"
+                                    width="100" />
                             </picture>
 
                         </a>
@@ -107,7 +106,7 @@
                 </a>
             </li>
             <li>
-                <a href="http://www.legambientepiemonte.it/">
+                <a href="https://www.legambientepiemonte.it/">
                     <picture>
                         <source media="(max-width: 1000px)" srcset="@/assets/img/loghi/Logo-legambiente.png" width="50"
                             height="50" />

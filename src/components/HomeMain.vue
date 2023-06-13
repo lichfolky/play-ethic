@@ -9,7 +9,7 @@
             <h2 class="subtitle">Giochi di ruolo per il sociale</h2>
         </div>
         <p class="intro"><strong>PLAY ETHIC</strong> è un progetto di
-            <a href="http://www.alteracultura.org/">Altera APS</a>, sviluppato in collaborazione con <a
+            <a href="https://www.alteracultura.org/">Altera APS</a>, sviluppato in collaborazione con <a
                 href="https://www.facebook.com/IlFortunaDado/">Il
                 FortunaDado</a> e realizzato con il
             contributo della <a href="https://www.fondazionecrt.it/">Fondazione CRT</a>, per esplorare il valore
@@ -23,8 +23,8 @@
         <picture class="book">
             <source media="(max-width: 600px)" srcset="@/assets/img/photos/book.png" width="300" />
             <source media="(max-width: 1270px)" srcset="@/assets/img/photos/book.png" width="500" />
-            <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp"
-                width="650" height="338" />
+            <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp" width="650"
+                height="338" />
         </picture>
         <h2>
             La call for adventures!

@@ -4,7 +4,7 @@
         <div class="wrap">
             <div class="alteraadd">
 
-                <a href="http://www.alteracultura.org/">
+                <a href="https://www.alteracultura.org/">
                     Altera: c/o CasArcobaleno - Via Bernardino Lanino 3/A, 10152 Torino</a>
 
             </div>
@@ -30,7 +30,6 @@
             </div>
         </div>
     </footer>
-
 </template>
 
 <style>

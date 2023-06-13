@@ -23,18 +23,20 @@ import GiuriaComitato from '../components/GiuriaComitato.vue';
       universitarie come di seguito dettagliato, esperti/e che potranno assegnare una menzione di merito:
     </p>
     <ul>
-      <li>l’ONG <a href="www.cifaong.it"><strong>C.I.F.A. ETS</strong></a> sui temi “Corpo e tecnologia” e
+      <li>l’ONG <a href="https://www.cifaong.it"><strong>C.I.F.A. ETS</strong></a> sui temi “Corpo e tecnologia” e
         “Intersezionalità delle
         discriminazioni”
       </li>
-      <li>l'associazione <a href="www.gioseftorino.eu"><strong>Giosef Torino</strong> </a> sui temi “Intersezionalità
+      <li>l'associazione <a href="https://www.gioseftorino.eu"><strong>Giosef Torino</strong> </a> sui temi
+        “Intersezionalità
         delle
         discriminazioni” e
         “Globale/locale”
       </li>
-      <li>l’associazione <a href="www.legambientepiemonte.it"><strong>Legambiente Piemonte e Valle d'Aosta</strong> </a>
+      <li>l’associazione <a href="https://www.legambientepiemonte.it"><strong>Legambiente Piemonte e Valle
+            d'Aosta</strong> </a>
         e
-        <a href="www.mercatocircolare.it"><strong>Mercato
+        <a href="https://www.mercatocircolare.it"><strong>Mercato
             Circolare</strong></a> Srl -
         Società Benefit sul tema “Sostenibilità ambientale, sociale ed economica”
       </li>
