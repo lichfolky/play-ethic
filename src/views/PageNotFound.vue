@@ -1,6 +1,6 @@
 <template>
     <h3>
-        Pagina non travata!
+        Pagina non trovata!
     </h3>
 </template>
 
