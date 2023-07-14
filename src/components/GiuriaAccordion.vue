@@ -11,7 +11,7 @@ let giuria = [
     , { nome: "Andrea Ligabue", titolo: "PLAY - Festival del Gioco, GAME Science Research Center", descr: "", photo: "" }
     , { nome: "Mauro Longo", titolo: "Scrittore fantasy, autore di giochi di ruolo e libri game", descr: "", photo: "" }
     , { nome: "Marco Mengoli", titolo: "GAME Science Research Center", descr: "", photo: "" }
-    , { nome: "Vincenzo Mollica", titolo: "Scrittore fantasy, autore di giochi", descr: "", photo: "" }
+    , { nome: "Andrea Tupac Mollica", titolo: "Scrittore fantasy, autore di giochi", descr: "", photo: "" }
     , { nome: "Erika Santin", titolo: "Lucca Comics&Games, Game Science Research Center", descr: "", photo: "" }
     , { nome: "Andrea Sfiligoi", titolo: "Game designer", descr: "", photo: "" }
     , { nome: "Chiara Tirabasso", titolo: "Master di precedenti edizioni di Play Ethic, Terre Spezzate", descr: "", photo: "" }
@@ -25,13 +25,13 @@ let giuria = [
             <strong>{{ persona.nome }}</strong>
             <em>{{ persona.titolo }}</em>
             <!-- <div class="persona">
-                <div class="photo">
-                    <img :src="persona.photo" :alt="persona.nome + ' profile'">
-                </div>
-                <div class="descr">
-                    <p>{{ persona.descr }}</p>
-                </div>
-            </div> -->
+                    <div class="photo">
+                        <img :src="persona.photo" :alt="persona.nome + ' profile'">
+                    </div>
+                    <div class="descr">
+                        <p>{{ persona.descr }}</p>
+                    </div>
+                </div> -->
         </li>
     </ul>
 </template>
