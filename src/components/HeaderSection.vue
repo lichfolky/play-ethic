@@ -7,9 +7,9 @@ let showMenu = ref(false);
 </script>
 
 <template>
-<!--
+    <!--
     <div class="top-call">
-        Partecipa alla nuova <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing"
+        Partecipa alla nuova <a href="https://drive.google.com/file/d/1zP1oKQhtXSfsPUNUfm4iwAaLaJlMkFzo/view"
             target=”_blank”>call for
             adventures!
         </a>
@@ -24,9 +24,9 @@ let showMenu = ref(false);
                 <li>
                     <RouterLink to="/call">La call for adventures</RouterLink>
                 </li>
-            <li>
-                <RouterLink to="/giuria">La giuria</RouterLink>
-            </li>
+                <li>
+                    <RouterLink to="/giuria">La giuria</RouterLink>
+                </li>
                 <li>
                     <RouterLink to="/edizionipassate">Le avventure vincitrici</RouterLink>
                 </li>
@@ -48,9 +48,9 @@ let showMenu = ref(false);
             <ul v-if="showMenu">
                 <li>
                     <RouterLink to="/call">La call for adventures</RouterLink>
-            </li>
-            <li>
-                <RouterLink to="/giuria">La giuria</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/edizionipassate">Le avventure vincitrici</RouterLink>

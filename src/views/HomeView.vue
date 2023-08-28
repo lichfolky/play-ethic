@@ -61,7 +61,7 @@ import PartnersList from '../components/PartnersList.vue';
   <div class="separator"></div>
 
   <h3 class="call2action">
-    Per partecipare <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing"
+    Per partecipare <a href="https://drive.google.com/file/d/1zP1oKQhtXSfsPUNUfm4iwAaLaJlMkFzo/view"
       target=”_blank”>
       consulta
       il
