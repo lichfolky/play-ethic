@@ -16,13 +16,30 @@ import PartnersList from '../components/PartnersList.vue';
   <section class="avventure">
     <!-- <h2>LE AVVENTURE</h2> -->
     <div>
+
+            <h2>
+            La call for adventures!
+        </h2>
+        <p>
+            Sono state nominate le avventure vincitrici della seconda edizione della <strong>Call for adventures Play Ethic</strong> rivolta ad autori ed
+            autrici di avventure di gioco di ruolo che sappiano
+            stimolare giocatori e giocatrici ad interrogarsi su
+            dilemmi etici, mettersi in discussione e sperimentare nuove possibilità e immedesimazioni.
+        </p>
+        <div class="slider mobile">
+            <picture>
+                <source media="(max-width: 600px)" srcset="@/assets/img/photos/players.png" width="300" />
+                <source media="(max-width: 1270px)" srcset="@/assets/img/photos/players.png" width="500" />
+                <img alt="players" src="@/assets/img/photos/players.png" width="500" />
+            </picture>
+        </div>
       <p>
         <DiceIcon />
         Tra gli obiettivi del progetto c’è la realizzazione di una raccolta che comprenderà le migliori avventure delle
         due call, che sarà pubblicata sul nostro sito e diffusa gratuitamente.
       </p>
       <p>
-        Le avventure partecipanti devono perseguire uno o più dei seguenti scopi:
+        Le avventure dovevano perseguire uno o più dei seguenti scopi:
       </p>
       <ul>
         <li> delineare mondi possibili alternativi, ad esempio in termini di rapporti socio-economici, culturali,

@@ -7,13 +7,14 @@ let showMenu = ref(false);
 </script>
 
 <template>
+<!--
     <div class="top-call">
         Partecipa alla nuova <a href="https://drive.google.com/file/d/1Bmx2idwzdmvJPQDXNJnqhlBDzkl63rXC/view?usp=sharing"
             target=”_blank”>call for
             adventures!
         </a>
         - SCADENZA PROROGATA AL 5 LUGLIO!
-    </div>
+    </div>-->
     <header>
         <nav class="desktop">
             <ul>
@@ -27,7 +28,7 @@ let showMenu = ref(false);
                 <RouterLink to="/giuria">La giuria</RouterLink>
             </li>
                 <li>
-                    <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
+                    <RouterLink to="/edizionipassate">Le avventure vincitrici</RouterLink>
                 </li>
 
                 <!-- 
@@ -52,7 +53,7 @@ let showMenu = ref(false);
                 <RouterLink to="/giuria">La giuria</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/edizionipassate">La prima edizione</RouterLink>
+                    <RouterLink to="/edizionipassate">Le avventure vincitrici</RouterLink>
                 </li>
                 <!--
                                                     <li>

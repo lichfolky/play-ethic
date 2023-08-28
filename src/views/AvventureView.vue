@@ -1,4 +1,49 @@
 <template>
+  <h2>Le avventure vincitrici della seconda edizione</h2>
+  <p>
+    La seconda edizione della Call for Adventures è stata realizzata quest'anno, con il patrocinio di Lucca Comics&Games,
+    Play - Festival del Gioco e Game Science Research Center.
+  </p>
+  <p>
+    Ecco un breve assaggio delle avventure vincitrici della seconda edizione della Call for adventures Play Ethic!
+    Conosceremo lɜ autorɜ sabato 9 settembre alla manifestazione ToPlay (Torino-Parco della Tesoriera).
+    Per info e per prenotarsi per le sessioni di gioco scrivete a <a href="mailto:info@alteracultura.org">
+      info@alteracultura.org
+    </a>
+  </p>
+  <h3>EXODUS - <em> un'esperienza di ruolo narrativa ideata e scritta da Andrea Carbone</em></h3>
+  <p>
+    <em>
+      "Ce l’avete fatta, siete in mare. Non riuscite a crederci, non dopo tutto quello che avete passato. Non dopo tutto
+      quello che avete pagato. Ma forse siete giunti alla conclusione del viaggio, la speranza si accende e quasi riuscite
+      a immaginare la terra che vi aspetta dall’altra parte. Una terra piena di opportunità, dove la guerra diventerà un
+      ricordo lontano, dove la fame non vi perseguiterà.
+      Dell’acqua salata in faccia vi desta da un sonno molto leggero, sarà durato mezz’ora, perchè da quando siete sulla
+      barca potete permettervi sonni brevi.
+      Quest’onda dev’essere stata più alta del previsto, forse sta anche piovendo, ma il buio della notte non vi aiuta a
+      capirlo.
+      C’è silenzio intorno a voi, capite che gli altri si stanno svegliando per via del movimento brusco
+      dell’imbarcazione".
+    </em>
+  </p>
+  <h3>
+    SONO SOLO MASCHERE - <em>un LARP da camera ideato e scritto da Annalisa Savio ed Alessandra Saracino </em>
+  </h3>
+  <p>
+
+    <em>
+      "I pesanti cancelli in metallo si chiudono con un tonfo sordo, definitivo. La prigione è un edificio solido,
+      apparentemente immutabile. Il cortile desolato e i corridoi spogli sono pieni di
+      prigionierə e guardie, masse omogenee, dove il singolo si perde.
+      Sotto l’aria sicura di sé, le guardie sono nervose, pronte a reagire con la forza alla minima provocazione. Basta un
+      gesto sbagliato e i manganelli si abbattono rapidi su braccia, spalle e schiene. Lə carceratə, dal canto loro, hanno
+      nello sguardo la promessa di violenza e inganno. Dopotutto, là fuori erano dellə criminali, perché qui dovrebbe
+      essere diverso?
+      Tuttə sanno benissimo qual è la propria Maschera. Lə carceratə saranno sempre Violentə, Manipolatorə e Rovinatə. Le
+      guardie saranno sempre L’Oppressore. Fra queste mura nulla può cambiare, ci sono solo Maschere".
+    </em>
+  </p>
+
   <h2>Le avventure vincitrici della prima edizione</h2>
   <p>
     La prima edizione della Call for Adventures è stata realizzata nel 2021 con il patrocinio di Lucca Comics&Games,
@@ -54,7 +99,6 @@
       Riusciranno a superare le loro paure, e a farsi adottare da una famiglia amorevole?
     </em>
   </p>
-
 </template>
 
 <style scoped>
@@ -68,5 +112,4 @@ ul {
 
 h3 em {
   font-weight: 600;
-}
-</style>
+}</style>

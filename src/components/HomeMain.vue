@@ -26,19 +26,15 @@
             <img alt="Giocatori che leggono una raccolta di foto d'epoca" src="@/assets/img/photos/book.webp" width="650"
                 height="338" />
         </picture>
-        <h2>
+
+        <!--         <h2>
             La call for adventures!
         </h2>
         <p>
-            E' aperta la seconda edizione della <strong>Call for adventures Play Ethic</strong> rivolta ad autori ed
+            Sono state nominate le avventure vincitrici della seconda edizione della <strong>Call for adventures Play Ethic</strong> rivolta ad autori ed
             autrici di avventure di gioco di ruolo che sappiano
             stimolare giocatori e giocatrici ad interrogarsi su
             dilemmi etici, mettersi in discussione e sperimentare nuove possibilità e immedesimazioni.
-        </p>
-        <p>
-            La call prevede una rosa di linee tematiche, le avventure proposte dovranno enfatizzare almeno una tra
-            queste e dovranno utilizzare sistemi di gioco con licenze open ed essere rilasciate con licenza
-            creative commons.
         </p>
         <div class="slider mobile">
             <picture>
@@ -46,7 +42,54 @@
                 <source media="(max-width: 1270px)" srcset="@/assets/img/photos/players.png" width="500" />
                 <img alt="players" src="@/assets/img/photos/players.png" width="500" />
             </picture>
-        </div>
+        </div> -->
+        <h2>
+            Programma PLAY ETHIC all'interno di ToPlay 2023
+        </h2>
+        <p>
+            L'appuntamento con PlayEthic è per sabato 9 settembre al parco della Tesoriera - Torino, con 3 momenti distinti
+            tra
+            le 12 e le 19. Ecco il programma:</p>
+        <p>
+            <strong>Tavoli di gioco PlayEyhic</strong> - dalle 12:00 alle 17:00 con aperitivo di benvenuto, sessione di
+            gioco delle avventure
+            vincitrici della Call PlayEthic e discussione di gruppo (posti limitati: per info e prenotazioni scrivere a
+            <a href="mailto:info@alteracultura.org">
+                info@alteracultura.org
+            </a>).
+        </p>
+        <p>
+            <strong>Conferenza Ludendo docere, docendo ludere</strong> - dalle 17:00 alle 18:30
+            Descrizione:
+            Si fa un gran parlare di ‘didattica ludica’, ‘gamification’ e insegnamento delle ‘soft skills’. In effetti, le
+            competenze mobilitate e coltivando giocando di ruolo o da tavolo - dal calcoli della probabilità
+            all’immedesimazione, dalla creatività alla pianificazione - possono tornare utili in una varietà di contesti,
+            come
+            dimostra la popolarità di pubblicazioni e corsi sul game-based learning. Ma questa è solo metà della storia: per
+            raccontare l’altra bisogna rendersi conto che qualsiasi attività ludica può costituire anche un’occasione di
+            formazione per chi la pratica.
+        </p>
+        <p>
+            Nato nel 2018, il progetto PlayEthic è animato dalla consapevolezza della natura intrinsecamente e
+            subliminalmente
+            pedagogica del gioco di ruolo, nonché dalla voglia di esplorare questa natura: ne parliamo con i responsabili
+            <strong>Monica</strong>
+            Casetta (Altera APS) e <strong> Ivan Mosca</strong> (Università di Torino), assieme a <strong> Chiara
+                Tirabasso</strong>, larp designer (Terre
+            Spezzate)
+            e al docente ed esperto di didattica ludica <strong> Marco Fènici</strong> (Europass).
+        </p>
+        <p>
+            La conferenza è stata pensata come un momento di scambio e confronto non solo tra lɜ relatorɜ ma con tuttɜ lɜ
+            presentɜ in sala.
+        </p>
+        <p>
+            A seguire (al termine della conferenza) <strong> la Cerimonia di premiazione avventure vincitrici della Call for
+                Adventures
+                PlayEthic</strong> - ore 18:30.
+        </p>
+
+
     </div>
 </template>
 
