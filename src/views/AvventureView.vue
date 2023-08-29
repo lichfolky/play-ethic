@@ -7,7 +7,8 @@
   <p>
     Ecco un breve assaggio delle avventure vincitrici della seconda edizione della Call for adventures Play Ethic!
     Conosceremo lɜ autorɜ sabato 9 settembre alla manifestazione ToPlay (Torino-Parco della Tesoriera).
-    Per info e per prenotarsi per le sessioni di gioco scrivete a <a href="mailto:info@alteracultura.org">
+    I posti sono limitati! Per info e per prenotarsi per le sessioni di gioco scrivete a <a
+      href="mailto:info@alteracultura.org">
       info@alteracultura.org
     </a>
   </p>
@@ -112,4 +113,5 @@ ul {
 
 h3 em {
   font-weight: 600;
-}</style>
+}
+</style>

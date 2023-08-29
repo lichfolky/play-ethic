@@ -17,22 +17,23 @@ import PartnersList from '../components/PartnersList.vue';
     <!-- <h2>LE AVVENTURE</h2> -->
     <div>
 
-            <h2>
-            La call for adventures!
-        </h2>
-        <p>
-            Sono state nominate le avventure vincitrici della seconda edizione della <strong>Call for adventures Play Ethic</strong> rivolta ad autori ed
-            autrici di avventure di gioco di ruolo che sappiano
-            stimolare giocatori e giocatrici ad interrogarsi su
-            dilemmi etici, mettersi in discussione e sperimentare nuove possibilità e immedesimazioni.
-        </p>
-        <div class="slider mobile">
-            <picture>
-                <source media="(max-width: 600px)" srcset="@/assets/img/photos/players.png" width="300" />
-                <source media="(max-width: 1270px)" srcset="@/assets/img/photos/players.png" width="500" />
-                <img alt="players" src="@/assets/img/photos/players.png" width="500" />
-            </picture>
-        </div>
+      <h2>
+        La call for adventures!
+      </h2>
+      <p>
+        Sono state nominate le avventure vincitrici della seconda edizione della <strong>Call for adventures Play
+          Ethic</strong> rivolta ad autori ed
+        autrici di avventure di gioco di ruolo che sappiano
+        stimolare giocatori e giocatrici ad interrogarsi su
+        dilemmi etici, mettersi in discussione e sperimentare nuove possibilità e immedesimazioni.
+      </p>
+      <div class="slider mobile">
+        <picture>
+          <source media="(max-width: 600px)" srcset="@/assets/img/photos/players.png" width="300" />
+          <source media="(max-width: 1270px)" srcset="@/assets/img/photos/players.png" width="500" />
+          <img alt="players" src="@/assets/img/photos/players.png" width="500" />
+        </picture>
+      </div>
       <p>
         <DiceIcon />
         Tra gli obiettivi del progetto c’è la realizzazione di una raccolta che comprenderà le migliori avventure delle
@@ -58,9 +59,8 @@ import PartnersList from '../components/PartnersList.vue';
     </div>
 
   </section>
-  <div class="separator"></div>
 
-  <h3 class="call2action">
+  <!-- <h3 class="call2action">
     Per partecipare <a href="https://drive.google.com/file/d/1zP1oKQhtXSfsPUNUfm4iwAaLaJlMkFzo/view"
       target=”_blank”>
       consulta
@@ -70,7 +70,7 @@ import PartnersList from '../components/PartnersList.vue';
     <p class="claim">
       Scadenza prorogata al 5 Luglio!
     </p>
-  </h3>
+  </h3> -->
 
   <h4>
     <div>
@@ -80,13 +80,13 @@ import PartnersList from '../components/PartnersList.vue';
     </div>
     <div>
       <a href="https://drive.google.com/file/d/1FqfRl5o4oBd0wE11fcDFvfeuJ35WcfPA/view?usp=sharing"
-      target=”_blank”>Comunicato
-      stampa di lancio (Gennaio 2023)</a>
-  </div>
-</h4>
-<div class="separator"></div>
+        target=”_blank”>Comunicato
+        stampa di lancio (Gennaio 2023)</a>
+    </div>
+  </h4>
+  <div class="separator"></div>
 
-<!-- 
+  <!-- 
                                                                   <section class="giuria">
                                                                     <h2>LA GIURIA</h2>
       <p>
@@ -95,7 +95,7 @@ import PartnersList from '../components/PartnersList.vue';
         premi saranno resi noti nella call.</p>
     </section> -->
 
-<!--
+  <!--
     <section class="call">
      <p>
                                                                       In attesa della nuova call, puoi consultare il <a
@@ -106,7 +106,7 @@ import PartnersList from '../components/PartnersList.vue';
 
       -->
 
-<!-- <section class="logo-text">
+  <!-- <section class="logo-text">
       <p>
                                                                       L’associazione culturale Àltera è nata nel 2001 dalla collaborazione di lavoratori, studenti e docenti
                                                                       universitari

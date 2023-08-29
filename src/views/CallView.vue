@@ -70,12 +70,12 @@
   </ul>
 
 
-  <h3 class="call2action">
+  <!-- <h3 class="call2action">
     Per partecipare <a href="https://drive.google.com/file/d/1zP1oKQhtXSfsPUNUfm4iwAaLaJlMkFzo/view" target=”_blank”>
       consulta
       il
       regolamento.
-    </a></h3>
+    </a></h3> -->
 
   <h2>FAQ</h2>
 

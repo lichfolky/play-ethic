@@ -47,9 +47,7 @@
             Programma PLAY ETHIC all'interno di ToPlay 2023
         </h2>
         <p>
-            L'appuntamento con PlayEthic è per sabato 9 settembre al parco della Tesoriera - Torino, con 3 momenti distinti
-            tra
-            le 12 e le 19. Ecco il programma:</p>
+            L'appuntamento con PlayEthic è per sabato 9 settembre al parco della Tesoriera - Torino. Ecco il programma:</p>
         <p>
             <strong>Tavoli di gioco PlayEyhic</strong> - dalle 12:00 alle 17:00 con aperitivo di benvenuto, sessione di
             gioco delle avventure
@@ -60,7 +58,6 @@
         </p>
         <p>
             <strong>Conferenza Ludendo docere, docendo ludere</strong> - dalle 17:00 alle 18:30
-            Descrizione:
             Si fa un gran parlare di ‘didattica ludica’, ‘gamification’ e insegnamento delle ‘soft skills’. In effetti, le
             competenze mobilitate e coltivando giocando di ruolo o da tavolo - dal calcoli della probabilità
             all’immedesimazione, dalla creatività alla pianificazione - possono tornare utili in una varietà di contesti,
