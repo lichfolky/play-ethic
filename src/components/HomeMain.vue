@@ -44,12 +44,12 @@
             </picture>
         </div> -->
         <h2>
-            Programma PLAY ETHIC all'interno di ToPlay 2023
+            Programma Play Ethic all'interno di TOPlay 2023
         </h2>
         <p>
             L'appuntamento con PlayEthic è per sabato 9 settembre al parco della Tesoriera - Torino. Ecco il programma:</p>
         <p>
-            <strong>Tavoli di gioco PlayEyhic</strong> - dalle 12:00 alle 17:00 con aperitivo di benvenuto, sessione di
+            <strong>Tavoli di gioco PlayEyhic</strong> - dalle 12:00 alle 17:00 - con aperitivo di benvenuto, sessione di
             gioco delle avventure
             vincitrici della Call PlayEthic e discussione di gruppo (posti limitati: per info e prenotazioni scrivere a
             <a href="mailto:info@alteracultura.org">
@@ -58,6 +58,8 @@
         </p>
         <p>
             <strong>Conferenza Ludendo docere, docendo ludere</strong> - dalle 17:00 alle 18:30
+        </p>
+        <p>
             Si fa un gran parlare di ‘didattica ludica’, ‘gamification’ e insegnamento delle ‘soft skills’. In effetti, le
             competenze mobilitate e coltivando giocando di ruolo o da tavolo - dal calcoli della probabilità
             all’immedesimazione, dalla creatività alla pianificazione - possono tornare utili in una varietà di contesti,
@@ -70,18 +72,15 @@
             Nato nel 2018, il progetto PlayEthic è animato dalla consapevolezza della natura intrinsecamente e
             subliminalmente
             pedagogica del gioco di ruolo, nonché dalla voglia di esplorare questa natura: ne parliamo con i responsabili
-            <strong>Monica</strong>
-            Casetta (Altera APS) e <strong> Ivan Mosca</strong> (Università di Torino), assieme a <strong> Chiara
-                Tirabasso</strong>, larp designer (Terre
+            <strong>Monica Casetta</strong> (Altera APS) e <strong> Ivan Mosca</strong> (Università di Torino), assieme alla
+            LARP designer
+            <strong> Chiara Tirabasso</strong> (Terre
             Spezzate)
             e al docente ed esperto di didattica ludica <strong> Marco Fènici</strong> (Europass).
         </p>
+
         <p>
-            La conferenza è stata pensata come un momento di scambio e confronto non solo tra lɜ relatorɜ ma con tuttɜ lɜ
-            presentɜ in sala.
-        </p>
-        <p>
-            A seguire (al termine della conferenza) <strong> la Cerimonia di premiazione avventure vincitrici della Call for
+            A seguire, <strong> la Cerimonia di premiazione avventure vincitrici della Call for
                 Adventures
                 PlayEthic</strong> - ore 18:30.
         </p>
