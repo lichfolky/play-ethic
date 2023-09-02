@@ -158,4 +158,13 @@ ul {
 .updated {
   text-decoration: line-through;
 }
+
+.separator {
+  max-width: var(--text-width);
+  border-bottom: 3px solid var(--color-brown);
+  margin: 1rem auto 2rem auto;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
+}
 </style>

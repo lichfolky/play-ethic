@@ -1,7 +1,8 @@
 <template>
   <h2>Le avventure vincitrici della seconda edizione</h2>
   <p>
-    La seconda edizione della Call for Adventures è stata realizzata quest'anno, con il patrocinio di Lucca Comics&Games,
+    La seconda edizione della Call for Adventures si è svolta tra gennaio e luglio 2023 ed è stata realizzata con il
+    patrocinio di Lucca Comics&Games,
     Play - Festival del Gioco e Game Science Research Center.
   </p>
   <p>
@@ -27,6 +28,12 @@
       dell’imbarcazione".
     </em>
   </p>
+  <p>
+    <strong>Nota dell'autore:</strong> Exodus è un'esperienza narrativa nella quale si andranno a toccare tematiche
+    drammatiche e a tratti
+    violente, attinenti a una realtà concreta, quella di chi fugge dal proprio paese alla ricerca di speranza. Consigliamo
+    la partecipazione sopra i 14 anni di età e con la consapevolezza che si toccheranno tematiche forti.
+  </p>
   <h3>
     SONO SOLO MASCHERE - <em>un LARP da camera ideato e scritto da Annalisa Savio ed Alessandra Saracino </em>
   </h3>
@@ -44,13 +51,31 @@
       guardie saranno sempre L’Oppressore. Fra queste mura nulla può cambiare, ci sono solo Maschere".
     </em>
   </p>
+  <h3>SESSIONI DI GIOCO 9 E 10 SETTEMBRE AL TOPLAY </h3>
+  <p>
+    <strong>EXOSUS</strong> sabato 9 settembre ore 12-16 e domenica 10 settembre ore 10-13
+  </p>
+  <p>
+    <strong>SONO SOLO MASCHERE</strong> sabato 9 settembre ore 12-16:30 e domenica 10 settembre ore 10-13:30 e 14:30-18
+  </p>
+  <p>
+    POSTI LIMITATI! Per info e prenotazioni scrivere a
 
+    <a href="mailto:info@alteracultura.org">info@alteracultura.org</a>
+
+  </p>
+  <p>
+
+    Non sono necessarie conoscenze pregresse nè esperienza pregressa di gioco di ruolo o LARP
+
+  </p>
+  <div class="separator"></div>
   <h2>Le avventure vincitrici della prima edizione</h2>
   <p>
     La prima edizione della Call for Adventures è stata realizzata nel 2021 con il patrocinio di Lucca Comics&Games,
     Play - Festival del Gioco e Game Science Research Center.
   </p>
-  <p>
+  <P>
     Le tre avventure vincitrici sono state premiate all'interno del festival del gioco <strong>TOPlay</strong> e gli
     autori e le autrici sono stati/e invitati/e a farle giocare e masterarle all'interno della manifestazione.
   </p>
@@ -113,5 +138,14 @@ ul {
 
 h3 em {
   font-weight: 600;
+}
+
+.separator {
+  max-width: var(--text-width);
+  border-bottom: 3px solid var(--color-brown);
+  margin: 1rem auto 2rem auto;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
 }
 </style>
