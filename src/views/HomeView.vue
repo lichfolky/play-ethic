@@ -74,6 +74,11 @@ import PartnersList from '../components/PartnersList.vue';
 
   <h4>
     <div>
+      <a href="https://drive.google.com/file/d/1H6dshXUiSOWV2hR4Mx7cObiYeW5S4B4u/view?usp=sharing"
+        target=”_blank”>Comunicato
+        stampa avventure vincitrici (Agosto 2023)</a>
+    </div>
+    <div>
       <a href="https://drive.google.com/file/d/1KFhAbCMlzPTSoT3blxKVYn5nDfu4LvtH/view?usp=sharing"
         target=”_blank”>Comunicato
         stampa per proroga scadenza (Giugno 2023)</a>
