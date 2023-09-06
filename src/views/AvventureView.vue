@@ -53,7 +53,7 @@
   </p>
   <h3>SESSIONI DI GIOCO 9 E 10 SETTEMBRE AL TOPLAY </h3>
   <p>
-    <strong>EXOSUS</strong> sabato 9 settembre ore 12-16 e domenica 10 settembre ore 10-13
+    <strong>EXODUS</strong> sabato 9 settembre ore 12-16 e domenica 10 settembre ore 10-13
   </p>
   <p>
     <strong>SONO SOLO MASCHERE</strong> sabato 9 settembre ore 12-16:30 e domenica 10 settembre ore 10-13:30 e 14:30-18
