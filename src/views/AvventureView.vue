@@ -13,7 +13,9 @@
       info@alteracultura.org
     </a>
   </p>
-  <h3>EXODUS - <em> un'esperienza di ruolo narrativa ideata e scritta da Andrea Carbone</em></h3>
+  <h3>EXODUS - <em> un'esperienza di ruolo narrativa ideata e scritta da Andrea Carbone, con il patrocinio di SOS
+      MEDITERRANEE
+    </em></h3>
   <p>
     <em>
       "Ce l’avete fatta, siete in mare. Non riuscite a crederci, non dopo tutto quello che avete passato. Non dopo tutto
