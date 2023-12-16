@@ -44,6 +44,20 @@
             </picture>
         </div> -->
         <h2>
+            Exodus per SOS MEDITERRANEE
+        </h2>
+        <p>
+
+
+            <strong>Domenica 17 Dicembre 2023</strong> presso
+
+
+            <a href="https://offtopictorino.it/"><strong>Off topic</strong></a>
+            alle <strong>14:30</strong> potrai giocare con noi a <strong>Exodus</strong> - un'esperienza di ruolo ideata da
+            <strong>Andrea Carbone</strong> in collaborazione con <strong>SOS MEDITERRANEE</strong>.
+            Ti aspettiamo!
+        </p>
+        <h2>
             Programma Play Ethic all'interno di TOPlay 2023
         </h2>
         <p>
