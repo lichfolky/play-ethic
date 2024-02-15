@@ -43,27 +43,31 @@
                 <img alt="players" src="@/assets/img/photos/players.png" width="500" />
             </picture>
         </div> -->
+
+
         <h2>
-            Exodus per SOS MEDITERRANEE
+            Prossime SESSIONI DI GIOCO:
         </h2>
         <p>
+            <strong>Il 24 E 25 FEBBRAIO 2024 @Play on Board - EXODUS E SONO SOLO
+                MASCHERE</strong>
+        </p>
+        <p>
 
+            Prenota un posto <a href="https://forms.gle/jfsRAeqpt5PR5hD89"><strong>compilando questo form</strong></a>. Non
+            sono necessarie conoscenze pregresse nè esperienza pregressa di gioco di ruolo o LARP.
 
-            <strong>Domenica 17 Dicembre 2023</strong> presso
-
-
-            <a href="https://offtopictorino.it/"><strong>Off topic</strong></a>
-            alle <strong>14:30</strong> potrai giocare con noi a <strong>Exodus</strong> - un'esperienza di ruolo ideata da
-            <strong>Andrea Carbone</strong> in collaborazione con <strong>SOS MEDITERRANEE</strong>.
-            Ti aspettiamo!
+            Per Info: <a href="mailto:info@alteracultura.org">info@alteracultura.org</a>
         </p>
         <h2>
             Programma Play Ethic all'interno di TOPlay 2023
         </h2>
         <p>
-            L'appuntamento con PlayEthic è per sabato 9 settembre al parco della Tesoriera - Torino. Ecco il programma:</p>
+            L'appuntamento con PlayEthic è per sabato 9 settembre al parco della Tesoriera - Torino. Ecco il programma:
+        </p>
         <p>
-            <strong>Tavoli di gioco PlayEyhic</strong> - dalle 12:00 alle 17:00 - con aperitivo di benvenuto, sessione di
+            <strong>Tavoli di gioco PlayEyhic</strong> - dalle 12:00 alle 17:00 - con aperitivo di benvenuto, sessione
+            di
             gioco delle avventure
             vincitrici della Call PlayEthic e discussione di gruppo (posti limitati: per info e prenotazioni scrivere a
             <a href="mailto:info@alteracultura.org">
@@ -74,19 +78,24 @@
             <strong>Conferenza Ludendo docere, docendo ludere</strong> - dalle 17:00 alle 18:30
         </p>
         <p>
-            Si fa un gran parlare di ‘didattica ludica’, ‘gamification’ e insegnamento delle ‘soft skills’. In effetti, le
+            Si fa un gran parlare di ‘didattica ludica’, ‘gamification’ e insegnamento delle ‘soft skills’. In effetti,
+            le
             competenze mobilitate e coltivando giocando di ruolo o da tavolo - dal calcoli della probabilità
-            all’immedesimazione, dalla creatività alla pianificazione - possono tornare utili in una varietà di contesti,
+            all’immedesimazione, dalla creatività alla pianificazione - possono tornare utili in una varietà di
+            contesti,
             come
-            dimostra la popolarità di pubblicazioni e corsi sul game-based learning. Ma questa è solo metà della storia: per
+            dimostra la popolarità di pubblicazioni e corsi sul game-based learning. Ma questa è solo metà della storia:
+            per
             raccontare l’altra bisogna rendersi conto che qualsiasi attività ludica può costituire anche un’occasione di
             formazione per chi la pratica.
         </p>
         <p>
             Nato nel 2018, il progetto PlayEthic è animato dalla consapevolezza della natura intrinsecamente e
             subliminalmente
-            pedagogica del gioco di ruolo, nonché dalla voglia di esplorare questa natura: ne parliamo con i responsabili
-            <strong>Monica Casetta</strong> (Altera APS) e <strong> Ivan Mosca</strong> (Università di Torino), assieme alla
+            pedagogica del gioco di ruolo, nonché dalla voglia di esplorare questa natura: ne parliamo con i
+            responsabili
+            <strong>Monica Casetta</strong> (Altera APS) e <strong> Ivan Mosca</strong> (Università di Torino), assieme
+            alla
             LARP designer
             <strong> Chiara Tirabasso</strong> (Terre
             Spezzate)

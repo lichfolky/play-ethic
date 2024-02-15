@@ -53,24 +53,6 @@
       guardie saranno sempre L’Oppressore. Fra queste mura nulla può cambiare, ci sono solo Maschere".
     </em>
   </p>
-  <h3>SESSIONI DI GIOCO 9 E 10 SETTEMBRE AL TOPLAY </h3>
-  <p>
-    <strong>EXODUS</strong> sabato 9 settembre ore 12-16 e domenica 10 settembre ore 10-13
-  </p>
-  <p>
-    <strong>SONO SOLO MASCHERE</strong> sabato 9 settembre ore 12-16:30 e domenica 10 settembre ore 10-13:30 e 14:30-18
-  </p>
-  <p>
-    POSTI LIMITATI! Per info e prenotazioni scrivere a
-
-    <a href="mailto:info@alteracultura.org">info@alteracultura.org</a>
-
-  </p>
-  <p>
-
-    Non sono necessarie conoscenze pregresse nè esperienza pregressa di gioco di ruolo o LARP
-
-  </p>
   <div class="separator"></div>
   <h2>Le avventure vincitrici della prima edizione</h2>
   <p>
